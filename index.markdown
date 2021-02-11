@@ -4,8 +4,8 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 author_profile: true
+title: "AdaptOR: Deep Generative Model Challenge for Domain Adaptation in Surgery"
 ---
-## AdaptOR: Deep Generative Model Challenge for Domain Adaptation in Surgery
 <img src="/resources/AdaptOR.png" width="200">
 
 ### Challenge Abstract 
