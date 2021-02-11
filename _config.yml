@@ -23,6 +23,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: false
+logo: "/assets/images/miccailogo.png"
 
 # Build settings
 markdown: kramdown
@@ -62,6 +63,9 @@ plugins:
 #    - label: "GitHub"
 #      icon: "fab fa-fw fa-github"
 #      url: "https://github.com/"
+
+#author:
+#  avatar : "/resources/AdaptOR.png"
 
 defaults:
   # _posts
