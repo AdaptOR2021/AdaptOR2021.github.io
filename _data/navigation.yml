@@ -9,3 +9,5 @@ main:
     url: /timeline/
   - title: "Team"
     url: /team/
+  - title: "FAQ"
+    url: /faq/
