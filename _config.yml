@@ -66,7 +66,7 @@ plugins:
 #      url: "https://github.com/"
 
 author:
-  avatar : "/resources/logos.png"
+  avatar : "/resources/logos.PNG"
   links:
     - label: "MICCAI 2021"
       url: "https://miccai2021.org/en/"
