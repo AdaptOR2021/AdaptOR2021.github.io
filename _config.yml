@@ -23,7 +23,7 @@ twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: false
-logo: "/assets/images/miccailogo.png"
+#logo: "/assets/images/miccailogo.png"
 
 
 # Build settings
@@ -66,7 +66,14 @@ plugins:
 #      url: "https://github.com/"
 
 author:
-  avatar : "/resources/AdaptOR.png"
+  avatar : "/resources/logos.png"
+  links:
+    - label: "MICCAI 2021"
+      url: "https://miccai2021.org/en/"
+    - label: "University Hospital Heidelberg"
+      url: "https://www.klinikum.uni-heidelberg.de/"
+    - label: "TU Darmstadt"
+      url: "https://www.tu-darmstadt.de/"
 
 defaults:
   # _posts
