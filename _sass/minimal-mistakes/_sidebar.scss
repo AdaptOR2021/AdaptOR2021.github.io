@@ -19,9 +19,9 @@
   @include breakpoint($large) {
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
-    //opacity: 0.75;
-    //-webkit-transition: opacity 0.2s ease-in-out;
-    //transition: opacity 0.2s ease-in-out;
+    opacity: 0.75;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
@@ -62,11 +62,25 @@
   }
 
   img {
-    width: 100%;
+    max-width: 90%;
+    height: auto;
+    width: auto;
 
     &.emoji {
       width: 20px;
       height: 20px;
+    }
+  }
+  @media only screen and (max-width: 1151px) {
+    img {
+      max-width: 10%;
+      height: auto;
+      width: auto;
+
+      &.emoji {
+        width: 20px;
+        height: 20px;
+      }
     }
   }
 }
@@ -127,12 +141,12 @@
   }
 
   img {
-    max-width: 200px;
-    border-radius: 0%;
+    max-width: 110px;
+    border-radius: 50%;
 
     @include breakpoint($large) {
-      padding: 0px;
-      border: 0px solid $border-color;
+      padding: 5px;
+      border: 1px solid $border-color;
     }
   }
 }
@@ -209,7 +223,7 @@
 
     &:before {
       @supports (pointer-events: none) {
-        content: '';
+        content: "";
         position: fixed;
         top: 0;
         left: 0;
@@ -343,4 +357,3 @@
     margin-right: initial;
   }
 }
-

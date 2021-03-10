@@ -1,5 +1,5 @@
 ---
-title: "dataset info"
+title: "Dataset info"
 permalink: /datasetinfo/
 layout: home
 ---
