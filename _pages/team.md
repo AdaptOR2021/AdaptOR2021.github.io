@@ -23,7 +23,7 @@ classes: wide
         Medical and Environmental Computing (MEC-Lab)</a>
     </div>
     <div class="organizer">
-        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie ">
+        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie">
         <img src="/assets/images/de_simone.jpg"><br>
         <span class="organizer_name">Raffaele De Simone</span><br>
         University Hospital Heidelberg<br>  
@@ -40,17 +40,17 @@ Artificial Intelligence of Cardiovascular Medicine (AICM-Lab), Heidelberg Univer
         <span class="team_member_name">Lalith Sharan</span></a>
     </div>
     <div class="team_member">
-        <a href="https://sites.google.com/site/geometricanirban/">
+        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
         <img src="/assets/images/Stern_Antonia.jpg"><br>
         <span class="team_member_name">Antonia Stern</span></a>
     </div>
     <div class="team_member">
-        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie ">
+        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
         <img src="/assets/images/Julian_Brand.png"><br>
         <span class="organizer_name">Julian Brand</span></a>
     </div>
     <div class="team_member">
-        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie ">
+        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
         <img src="/assets/images/halvar_kelm.png"><br>
         <span class="organizer_name">Halvar Kelm</span></a>
     </div>
@@ -59,7 +59,7 @@ Artificial Intelligence of Cardiovascular Medicine (AICM-Lab), Heidelberg Univer
 Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
 <div class="team_members tud">
     <div class="team_member tud">
-        <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
+        <a href="https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp">
         <img src="/assets/images/henry_krumb.jpeg"><br>
         <span class="team_member_name tud">Henry Krumb</span></a>
     </div>
