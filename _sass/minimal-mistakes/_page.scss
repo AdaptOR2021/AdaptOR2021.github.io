@@ -557,3 +557,72 @@ body {
     }
   }
 }
+
+/*
+   Team
+   ========================================================================== */
+.organizers{
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+}
+.organizer{
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  font-size: small;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.organizer > a > img{
+  height: auto;
+  width: 10vw;
+}
+@media screen and (max-width: 500px) {
+  .organizer {
+    width: 100%;
+  }
+  .organizer > a > img{
+    height: auto;
+    width: 20%;
+  }
+}
+.organizer_name{
+  font-size: medium;
+}
+.team_members{
+  content: "";
+  clear: both;
+  display: table;
+  width: 100%;
+  border-spacing: 0.5em;
+}
+.team_member{
+  float: left;
+  width: 25%;
+  padding: 5px;
+  font-size: small;
+  text-align: center;
+  display: table-row;
+  vertical-align: bottom;
+}
+.team_member > a > img{
+  height: auto;
+  width: 10vw;
+}
+.team_member.tud{
+  height: auto;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 500px) {
+  .team_member {
+    width: 100%;
+  }
+  .team_member > a > img{
+    height: auto;
+    width: 20%;
+  }
+}

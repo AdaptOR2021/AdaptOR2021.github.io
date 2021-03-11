@@ -1,8 +1,8 @@
 main:
-  - title: "Submission Details"
-    url: /submissiondetails/
   - title: "Dataset Info"
     url: /datasetinfo/
+  - title: "Submission Details"
+    url: /submissiondetails/
   - title: "Downloads"
     url: /downloads/
   - title: "Timeline"
