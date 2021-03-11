@@ -8,14 +8,35 @@
 
 .sidebar {
   @include clearfix();
-  // @include breakpoint(max-width $large) {
-  //   /* fix z-index order of follow links */
+  //@include breakpoint(max-width $large) {
+     /* fix z-index order of follow links */
   //   position: relative;
   //   z-index: 10;
   //   -webkit-transform: translate3d(0, 0, 0);
-  //   transform: translate3d(0, 0, 0);
+  //  transform: translate3d(0, 0, 0);
   // }
   text-align: left;
+
+  > * {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-bottom: 0;
+    font-family: $sans-serif-narrow;
+  }
+
+  p,
+  li {
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+    line-height: 1.5;
+  }
 
   img {
     max-width: 100%;
@@ -49,8 +70,9 @@
     }
     img {
       max-width: 100%;
+      max-height: 100%;
       height: auto;
-      width: 15vh;
+      width: 20vh;
   
       &.emoji {
         width: 20px;
@@ -60,28 +82,19 @@
   }
 
   @include breakpoint($x-large) {
+    float: left;
     width: calc(#{$right-sidebar-width} - 1em);
-  }
+    &:hover {
+      opacity: 1;
+    }
 
-  > * {
-    margin-top: 1em;
-    margin-bottom: 1em;
-  }
-
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-bottom: 0;
-    font-family: $sans-serif-narrow;
-  }
-
-  p,
-  li {
-    font-family: $sans-serif;
-    font-size: $type-size-6;
-    line-height: 1.5;
+    &.sticky {
+      overflow-y: auto;
+      /* calculate height of nav list
+         viewport height - nav height - masthead x-padding
+      */
+      max-height: calc(100vh - #{$nav-height} - 2em);
+    }
   }
 }
 
