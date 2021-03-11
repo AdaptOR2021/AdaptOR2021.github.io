@@ -12,9 +12,9 @@ sidebar:
   - image: "/assets/images/miccailogo.png"
     url  : "https://miccai2021.org/en/"
   - image: "/assets/images/UKHD.png"
-    url  : "https://www.klinikum.uni-heidelberg.de/"
+    url  : "https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine"
   - image: "/assets/images/TU_Darmstadt.png"
-    url  : "https://www.tu-darmstadt.de/"
+    url  : "https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp"
 ---
 
 ### Challenge Abstract 
