@@ -2,7 +2,6 @@
 title: "Team"
 permalink: /team/
 layout: home
-classes: wide
 ---
 
 ### Organizers

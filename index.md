@@ -3,6 +3,7 @@ permalink: /index.html
 layout: home
 author_profile: true
 title: "AdaptOR: Deep Generative Model Challenge for Domain Adaptation in Surgery"
+classes: wide
 sidebar:
   - image: "/assets/images/AdaptOR.png"
     url: "https://adaptor2021.github.io/"
@@ -32,12 +33,12 @@ The authors should detail on their approaches in their submitted LNCS papers.
 In case an image-to-image translation task was solved, we will provide visual examples of the generative model's output for visual comparison. These results are qualitative and will not be considered in the ranking scheme. We hypothesize that the quantitative assessment for landmark detection may be an indicator for the quality of the domain transfer with respect to the consistency of sutures in both domains.
 
 ### Keywords
-<div style="font-size: small">
+<div class="smaller-text">
 Domain Adaptation, Generative Models, Landmark Detection, Deep Learning, Machine Learning
 </div>
 
 ### References
-<div style="font-size: small">
+<div class="smaller-text">
 [<a id="1">1</a>] <a href="https://www.escardio.org/Journals/E-Journal-of-Cardiology-Practice/Volume-16/Mitral-valve-incompetence-epidemiology-and-causes">https://www.escardio.org/Journals/E-Journal-of-Cardiology-Practice/Volume-16/Mitral-valve-incompetence-epidemiology-and-causes</a><br><br>
 
 [<a id="2">2</a>] Engelhardt S., De Simone R., Full P.M., Karck M., Wolf I. (2018) Improving Surgical Training Phantoms by Hyperrealism: Deep Unpaired Image-to-Image Translation from Real Surgeries. In: Frangi A., Schnabel J., Davatzikos C., Alberola-López C., Fichtinger G. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vol 11070. Springer, Cham, doi: <a href="https://doi.org/10.1007/978-3-030-00928-1_84">10.1007/978-3-030-00928-1_84</a> <br><br>
