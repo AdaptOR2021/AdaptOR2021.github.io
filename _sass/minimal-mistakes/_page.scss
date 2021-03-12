@@ -27,7 +27,7 @@ body {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .initial-content,
@@ -88,22 +88,27 @@ body {
     border-bottom: 1px solid $border-color;
   }
 
-	h1, h2, h3, h4, h5, h6 {
-		.header-link {
-			position: relative;
-			left: 0.5em;
-			opacity: 0;
-			font-size: 0.8em;
-			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
-			-moz-transition: opacity 0.2s ease-in-out 0.1s;
-			-o-transition: opacity 0.2s ease-in-out 0.1s;
-			transition: opacity 0.2s ease-in-out 0.1s;
-		}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    .header-link {
+      position: relative;
+      left: 0.5em;
+      opacity: 0;
+      font-size: 0.8em;
+      -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+      -moz-transition: opacity 0.2s ease-in-out 0.1s;
+      -o-transition: opacity 0.2s ease-in-out 0.1s;
+      transition: opacity 0.2s ease-in-out 0.1s;
+    }
 
-		&:hover .header-link {
-			opacity: 1;
-		}
-	}
+    &:hover .header-link {
+      opacity: 1;
+    }
+  }
 
   p,
   li,
@@ -561,13 +566,13 @@ body {
 /*
    Team
    ========================================================================== */
-.organizers{
+.organizers {
   content: "";
   clear: both;
   display: table;
   width: 100%;
 }
-.organizer{
+.organizer {
   float: left;
   width: 33.33%;
   padding: 5px;
@@ -576,7 +581,7 @@ body {
   vertical-align: middle;
   display: table-cell;
 }
-.organizer > a > img{
+.organizer > a > img {
   height: auto;
   width: 10vw;
 }
@@ -584,22 +589,22 @@ body {
   .organizer {
     width: 100%;
   }
-  .organizer > a > img{
+  .organizer > a > img {
     height: auto;
     width: 20%;
   }
 }
-.organizer_name{
+.organizer_name {
   font-size: medium;
 }
-.team_members{
+.team_members {
   content: "";
   clear: both;
   display: table;
   width: 100%;
   border-spacing: 0.5em;
 }
-.team_member{
+.team_member {
   float: left;
   width: 25%;
   padding: 5px;
@@ -608,11 +613,11 @@ body {
   display: table-row;
   vertical-align: bottom;
 }
-.team_member > a > img{
+.team_member > a > img {
   height: auto;
   width: 10vw;
 }
-.team_member.tud{
+.team_member.tud {
   height: auto;
   width: 100%;
   text-align: center;
@@ -621,8 +626,94 @@ body {
   .team_member {
     width: 100%;
   }
-  .team_member > a > img{
+  .team_member > a > img {
     height: auto;
     width: 20%;
+  }
+}
+
+/*
+   Timeline
+   ========================================================================== */
+article {
+  padding: 0.25rem 0.5rem 0 1rem;
+  background: white;
+}
+
+dl {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-auto-flow: column;
+  grid-template-rows: auto auto;
+  .cell {
+    grid-column: span 2;
+    display: flex;
+    padding: 0 1rem;
+    &:nth-child(2) {
+      grid-column: span 3;
+      justify-content: flex-end;
+    }
+    .cell-content {
+      display: inline-flex;
+      flex-direction: column;
+      border-left: 1px dashed #2f5697;
+      position: relative;
+      background: white;
+      &::after {
+        content: "";
+        display: block;
+        background: #2f5697;
+        height: 0.5rem;
+        width: 0.5rem;
+        position: absolute;
+        left: -0.25rem;
+        border-radius: 50%;
+      }
+      dt {
+        background: white;
+        color: blue;
+        padding-bottom: 0.25em;
+        position: relative;
+        left: -0.25rem;
+        text-transform: uppercase;
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+      dd {
+        background: white;
+        margin: 0;
+        position: relative;
+        left: -0.25rem;
+      }
+    }
+    &:nth-child(odd) .cell-content {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #2f5697;
+      &::after {
+        bottom: -0.25rem;
+      }
+      dd:last-child {
+        padding-bottom: 0.5rem;
+      }
+    }
+    &:nth-child(even) .cell-content {
+      padding-top: 1rem;
+      position: relative;
+      top: -1px;
+      border-top: 1px solid #2f5697;
+      &::after {
+        top: -0.25rem;
+      }
+      dt {
+        padding-top: 0.5rem;
+      }
+      dd {
+        flex-grow: 1;
+      }
+    }
+    &:last-child .cell-content {
+      border-top-color: transparent;
+      border-bottom-color: transparent;
+    }
   }
 }
