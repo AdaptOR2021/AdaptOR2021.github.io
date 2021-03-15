@@ -4,6 +4,7 @@ layout: home
 author_profile: true
 title: "AdaptOR: Deep Generative Model Challenge for Domain Adaptation in Surgery"
 classes: wide
+image: /assets/images/AdaptOR.png
 sidebar:
   - image: "/assets/images/AdaptOR.png"
     url: "https://adaptor2021.github.io/"

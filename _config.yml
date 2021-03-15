@@ -76,7 +76,6 @@ author: "AdaptOR2021"
 twitter:
   username:
   card: summary
-image: /assets/images/AdaptOR.png
 image:
   path: /assets/images/AdaptOR.png
   height: 100
@@ -294,6 +293,7 @@ defaults:
       path: ""
       type: posts
     values:
+      image: /assets/images/AdaptOR.png
       classes: wide
       sidebar:
         - image: "/assets/images/AdaptOR.png"
@@ -315,6 +315,7 @@ defaults:
       path: "_pages"
       type: pages
     values:
+      image: /assets/images/AdaptOR.png
       classes: wide
       layout: home
       author_profile: false
