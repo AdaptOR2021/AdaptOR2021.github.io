@@ -649,9 +649,26 @@ dl {
     grid-column: span 2;
     display: flex;
     padding: 0 1rem;
+	//Timeline timestep differences changable with margin-left on &:nth-child
     &:nth-child(2) {
       grid-column: span 3;
       justify-content: flex-end;
+
+	  margin-left: 10rem;
+    }
+    &:nth-child(3) {
+		margin-left: -3.8rem;
+    }
+    &:nth-child(4) {
+    }
+    &:nth-child(5) {
+		margin-left: 4rem;
+    }
+    &:nth-child(6) {
+		margin-left: -3rem;
+    }
+    &:nth-child(7) {
+		margin-left: -1rem;
     }
     .cell-content {
       display: inline-flex;
@@ -659,6 +676,7 @@ dl {
       border-left: 1px dashed #2f5697;
       position: relative;
       background: white;
+	  width: 100%;
       &::after {
         content: "";
         display: block;

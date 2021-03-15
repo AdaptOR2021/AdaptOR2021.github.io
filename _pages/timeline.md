@@ -15,38 +15,38 @@ layout: home
 				the training cases</dd>
             </div>
         </div>
-        <div class="cell long-duration">
+        <div class="cell">
             <div class="cell-content">
                 <dt>30/05/2021</dt>
                 <dd>last possible<br>
 				registration date</dd>
             </div>
         </div>
-        <div class="cell short-duration">
+        <div class="cell">
             <div class="cell-content">
                 <dt>1/06/2021</dt>
                 <dd>start platform testing</dd>
             </div>
         </div>
-        <div class="cell medium-duration">
+        <div class="cell">
             <div class="cell-content">
                 <dt>15/06/2021</dt>
                 <dd>end platform testing</dd>
             </div>
         </div>
-        <div class="cell short-duration">
+        <div class="cell">
             <div class="cell-content">
                 <dt>15/06/2021-07/07/2021</dt>
                 <dd>submission of docker container</dd>
             </div>
         </div>
         <div class="cell">
-            <div class="cell-content medium-duration">
+            <div class="cell-content">
                 <dt>15/07/2021</dt>
                 <dd>LNCS paper submission date</dd>
             </div>
         </div>
-        <div class="cell long-duration">
+        <div class="cell">
             <div class="cell-content">
                 <dt>date of the workshop<br>either 27/09/2021 or 1/10/2021<br>
 				(subject to change depending<br>
