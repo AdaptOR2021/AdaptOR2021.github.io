@@ -52,7 +52,7 @@ summary: "Information about the schedule and publication"
                 <dt>date of the workshop<br>either 27/09/2021 or 1/10/2021<br>
 				(subject to change depending<br>
 				on the MICCAI 2021 deadlines)</dt>
-                <dd>associated workshop days<br>
+                <dd>
 				release date of the results
 				</dd>
             </div>
