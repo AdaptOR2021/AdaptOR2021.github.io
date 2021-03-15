@@ -17,10 +17,10 @@ minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "n
 # Site Settings
 locale: "en-US"
 title: "AdaptOR2021"
-title_separator: "-"
+title_separator: "|"
 subtitle: # site tagline that appears below site title in masthead
 name: "AdaptOR2021"
-#description              : "An amazing website."
+description : "AdaptOR2021 | Deep Generative Model Challenge for Domain Adaptation in Surgery | MICCAI2021"
 url: "https://adaptor2021.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "AdaptOR2021/adaptor2021.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -70,11 +70,13 @@ atom_feed:
 # naver_site_verification  :
 
 # Search Engine Optimization
+logo: /assets/images/AdaptOR.png
 tagline: "AdaptOR2021 | Deep Generative Model Challenge for Domain Adaptation in Surgery | MICCAI2021"
 author: "AdaptOR2021"
 twitter:
   username:
   card: summary
+image: /assets/images/AdaptOR.png
 image:
   path: /assets/images/AdaptOR.png
   height: 100
