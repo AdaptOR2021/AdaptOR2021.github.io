@@ -2,6 +2,7 @@
 title: "Team"
 permalink: /team/
 layout: home
+summary: "The organizers and supporting team of AdaptOR2021"
 ---
 
 ### Organizers

@@ -20,7 +20,7 @@ title: "AdaptOR2021"
 title_separator: "|"
 subtitle: # site tagline that appears below site title in masthead
 name: "AdaptOR2021"
-description : "AdaptOR2021 | Deep Generative Model Challenge for Domain Adaptation in Surgery | MICCAI2021"
+description : "AdaptOR2021 - Deep Generative Model Challenge for Domain Adaptation in Surgery - MICCAI2021"
 url: "https://adaptor2021.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: # the subpath of your site, e.g. "/blog"
 repository: "AdaptOR2021/adaptor2021.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -71,7 +71,7 @@ atom_feed:
 
 # Search Engine Optimization
 logo: /assets/images/AdaptOR.png
-tagline: "AdaptOR2021 | Deep Generative Model Challenge for Domain Adaptation in Surgery | MICCAI2021"
+tagline: "AdaptOR2021 - Deep Generative Model Challenge for Domain Adaptation in Surgery - MICCAI2021"
 author: "AdaptOR2021"
 twitter:
   username:

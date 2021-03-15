@@ -2,6 +2,7 @@
 title: "Timeline"
 permalink: /timeline/
 layout: home
+summary: "Information about the schedule and publication"
 ---
 
 ### Schedule

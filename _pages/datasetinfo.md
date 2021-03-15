@@ -2,6 +2,7 @@
 title: "Dataset info"
 permalink: /datasetinfo/
 layout: home
+summary: "Information about data usage, data and labeling"
 ---
 ### Data Usage
 By **registering** in the challenge, each team agrees (1) to use the data provided only in the

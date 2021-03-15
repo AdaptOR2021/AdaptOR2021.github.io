@@ -2,6 +2,7 @@
 permalink: /submissiondetails/
 title: "Submission details"
 layout: home
+summary: "Information about the submission and the evaluation"
 ---
 ## Submission
 For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit the following:
