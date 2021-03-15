@@ -69,6 +69,17 @@ atom_feed:
 # yandex_site_verification :
 # naver_site_verification  :
 
+# Search Engine Optimization
+tagline: "AdaptOR2021 | Deep Generative Model Challenge for Domain Adaptation in Surgery | MICCAI2021"
+author: "AdaptOR2021"
+twitter:
+  username:
+  card: summary
+image:
+  path: /assets/images/AdaptOR.png
+  height: 100
+  width: 100
+
 # Social Sharing
 # twitter:
 #   username               :
@@ -229,6 +240,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-seo-tag
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -290,7 +302,7 @@ defaults:
           url  : "https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine"
         - image: "/assets/images/TU_Darmstadt.png"
           url  : "https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp"
-      layout: single
+      layout: home
       author_profile: false
       read_time: true
       comments: # true
@@ -302,7 +314,7 @@ defaults:
       type: pages
     values:
       classes: wide
-      layout: single
+      layout: home
       author_profile: false
       sidebar:
         - image: "/assets/images/AdaptOR.png"
