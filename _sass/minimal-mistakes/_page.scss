@@ -636,102 +636,131 @@ body {
    Timeline
    ========================================================================== */
 article {
-  padding: 0.25rem 0.5rem 0 1rem;
+  padding: 0.5rem 0 1rem;
   background: white;
 }
-
-dl {
-  display: grid;
-  grid-auto-columns: max-content;
-  grid-auto-flow: column;
-  grid-template-rows: auto auto;
-  .cell {
-    grid-column: span 2;
-    display: flex;
-    padding: 0 1rem;
-	//Timeline timestep differences changable with margin-left on &:nth-child
-    &:nth-child(2) {
-      grid-column: span 3;
-      justify-content: flex-end;
-
-	  margin-left: 10rem;
+@media screen and (max-width: 584px) {
+  dl {
+    display: grid;
+    .cell {
+      display: contents;
     }
-    &:nth-child(3) {
-		margin-left: -3.8rem;
+    .cell .cell-content {
+      display: contents;
     }
-    &:nth-child(4) {
-    }
-    &:nth-child(5) {
-		margin-left: 4rem;
-    }
-    &:nth-child(6) {
-		margin-left: -3rem;
-    }
-    &:nth-child(7) {
-		margin-left: -1rem;
-    }
-    .cell-content {
-      display: inline-flex;
-      flex-direction: column;
-      border-left: 1px dashed #2f5697;
-      position: relative;
-      background: white;
-	  width: 100%;
-      &::after {
-        content: "";
-        display: block;
-        background: #2f5697;
-        height: 0.5rem;
-        width: 0.5rem;
-        position: absolute;
-        left: -0.25rem;
-        border-radius: 50%;
-      }
-      dt {
-        background: white;
-        color: blue;
-        padding-bottom: 0.25em;
-        position: relative;
-        left: -0.25rem;
-        text-transform: uppercase;
-        font-size: 0.8rem;
-        font-weight: 600;
-      }
-      dd {
-        background: white;
-        margin: 0;
-        position: relative;
-        left: -0.25rem;
-      }
-    }
-    &:nth-child(odd) .cell-content {
-      padding-bottom: 1rem;
-      border-bottom: 1px solid #2f5697;
-      &::after {
-        bottom: -0.25rem;
-      }
-      dd:last-child {
-        padding-bottom: 0.5rem;
-      }
-    }
-    &:nth-child(even) .cell-content {
-      padding-top: 1rem;
-      position: relative;
-      top: -1px;
+    &:nth-child(1) {
       border-top: 1px solid #2f5697;
-      &::after {
-        top: -0.25rem;
-      }
-      dt {
-        padding-top: 0.5rem;
-      }
-      dd {
-        flex-grow: 1;
-      }
     }
-    &:last-child .cell-content {
-      border-top-color: transparent;
-      border-bottom-color: transparent;
+    .cell .cell-content dt {
+      color: blue;
+      grid-column: 1;
+      padding-top: 1px;
+      border-bottom: 1px solid #2f5697;
+    }
+    .cell .cell-content dd {
+      border-collapse: collapse;
+      grid-column: 2;
+      padding-top: 1px;
+      margin-left: 0rem;
+      border-bottom: 1px solid #2f5697;
+    }
+  }
+}
+
+@media screen and (min-width: 584px) {
+  dl {
+    display: grid;
+    grid-auto-columns: max-content;
+    grid-auto-flow: column;
+    grid-template-rows: auto auto;
+    .cell {
+      grid-column: span 2;
+      display: flex;
+      padding: 0 1rem;
+      //Timeline timestep differences changable with margin-left on &:nth-child
+      &:nth-child(2) {
+        grid-column: span 3;
+        justify-content: flex-end;
+
+        margin-left: 10rem;
+      }
+      &:nth-child(3) {
+        margin-left: -3.8rem;
+      }
+      &:nth-child(4) {
+      }
+      &:nth-child(5) {
+        margin-left: 4rem;
+      }
+      &:nth-child(6) {
+        margin-left: -3rem;
+      }
+      &:nth-child(7) {
+        margin-left: -1rem;
+      }
+      .cell-content {
+        display: inline-flex;
+        flex-direction: column;
+        border-left: 1px dashed #2f5697;
+        position: relative;
+        background: white;
+        width: 100%;
+        &::after {
+          content: "";
+          display: block;
+          background: #2f5697;
+          height: 0.5rem;
+          width: 0.5rem;
+          position: absolute;
+          left: -0.25rem;
+          border-radius: 50%;
+        }
+        dt {
+          background: white;
+          color: blue;
+          padding-bottom: 0.25em;
+          position: relative;
+          left: -0.25rem;
+          text-transform: uppercase;
+          font-size: 0.8rem;
+          font-weight: 600;
+        }
+        dd {
+          background: white;
+          margin: 0;
+          position: relative;
+          left: -0.25rem;
+        }
+      }
+      &:nth-child(odd) .cell-content {
+        padding-bottom: 1rem;
+        border-bottom: 1px solid #2f5697;
+        &::after {
+          bottom: -0.25rem;
+        }
+        dd:last-child {
+          padding-bottom: 0.5rem;
+        }
+      }
+      &:nth-child(even) .cell-content {
+        padding-top: 1rem;
+        position: relative;
+        top: -1px;
+        border-top: 1px solid #2f5697;
+        &::after {
+          top: -0.25rem;
+        }
+        dt {
+          padding-top: 0.5rem;
+        }
+        dd {
+          flex-grow: 1;
+        }
+      }
+      &:last-child .cell-content {
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+      }
     }
   }
 }
