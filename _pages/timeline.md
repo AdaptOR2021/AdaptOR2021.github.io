@@ -43,15 +43,15 @@ summary: "Information about the schedule and publication"
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>15/07/2021</dt>
+                <dt>15/07/2021<br>
+                (subject to change depending<br>
+				on the MICCAI 2021 deadlines)</dt>
                 <dd>LNCS paper submission date</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>date of the workshop<br>either 27/09/2021 or 1/10/2021<br>
-				(subject to change depending<br>
-				on the MICCAI 2021 deadlines)</dt>
+                <dt>date of the workshop<br>either 27/09/2021 or 1/10/2021<br></dt>
                 <dd>
 				release date of the results
 				</dd>
