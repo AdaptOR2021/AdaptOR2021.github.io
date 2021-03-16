@@ -767,11 +767,15 @@ article {
     }
   }
 }
+
+/*
+   Image on index page
+   ========================================================================== */
 .centered{
   align-items: center;
   text-align: center;
 }
 .centered-image{
-  width: 50vw;
+  width: max(50vw, 50vh);
   max-width: 100%;
 }
