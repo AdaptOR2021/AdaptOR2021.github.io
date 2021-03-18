@@ -80,6 +80,7 @@ twitter:
     path: /assets/images/AdaptOR.png
     height: 100
     width: 100
+title_image: "/assets/images/AdaptOR.png"
 image:
   path: /assets/images/AdaptOR.png
   height: 100
