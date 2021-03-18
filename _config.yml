@@ -85,6 +85,8 @@ image:
   path: /assets/images/AdaptOR.png
   height: 100
   width: 100
+webmaster_verifications:
+  google: 3sicxbE-ONzgOKPyG7Q44dg2N0vDu341eMBHhzC6Ris
 
 # Social Sharing
 # twitter:
@@ -93,7 +95,7 @@ image:
 #   username               :
 #   app_id                 :
 #   publisher              :
-  og_image                 : "/assets/images/AdaptOR.png" # Open Graph/Twitter default site image
+  og_image                 : "https://adaptor2021.github.io/assets/images/AdaptOR.png" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
   social:
