@@ -76,6 +76,10 @@ author: "AdaptOR2021"
 twitter:
   username:
   card: summary
+  image:
+    path: /assets/images/AdaptOR.png
+    height: 100
+    width: 100
 image:
   path: /assets/images/AdaptOR.png
   height: 100
