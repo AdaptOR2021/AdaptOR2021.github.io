@@ -34,11 +34,11 @@ During the **test phase**, participants are allowed to make in total three submi
 We will make the code available on the synapse platform that will be used to compute the metrics for ranking.
 
 We will report **true positives**, **false positives** and **false negatives**.
-A landmark is counted as true positive, if it lies within a radius of 6 pixels around the manually labeled point, same as in [4]. This accounts for the fact that the region, where the suture enters or exits the tissue, is usually a small region and not just a single pixel. Finally, we report **sensitivity** (TPR) and **precision** (PPV).
+A landmark is counted as true positive, if it lies within a radius of 6 pixels around the manually labeled point, same as in [4]. This accounts for the fact that the region, where the suture enters or exits the tissue, is usually a small region and not just a single pixel. Finally, we report **sensitivity/recall** (TPR) and **precision** (PPV).
 
 #### Ranking
-Sensitivity and precision are computed over all landmarks in the test sets. It is not differentiated whether the prediction is particulary well for certain frames/patients/simulations and worse for others.  
-The average of TPR and PPV (the higher the better) will determine the final ranking.
+Precision and Recall are computed over all landmarks in the test sets. It is not differentiated whether the prediction is particulary well for certain frames/patients/simulations and worse for others.  
+The traditional F-score or **balanced F-score** (F1 score) presents the harmonic mean of precision and recall and will be used to determine the ranking (the higher the better).
 We exclude false negative rate (FNR) in the ranking, since it is related to TPR by TPR = 1-FNR. In the case where all metrics are tied, we will accept to have multiple teams with the same ranking.
 
 #### Result announcement
