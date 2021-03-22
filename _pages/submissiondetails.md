@@ -7,11 +7,11 @@ summary: "Information about the submission and the evaluation"
 ## Submission
 For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit the following:
 
-- Docker container on the Synapse platform. More information will be provided soon.
+- **Docker container on the Synapse platform**. More information and links will be provided soon.
 
-    - (mandatory:) When running a pre-defined command on novel input data from the Intraop-Domain, the model should output a JSON file, which should include the input file name and a list of the x- and y-coordinates of the detected landmarks.
+    - (Mandatory:) When running a pre-defined command on novel input data of size 512x288 from the Intraop-Domain, the model should output a **JSON file**, which should include the input file name and a list of the x- and y-coordinates of the detected landmarks.
 
-    - (optional:) When running a pre-defined command on a Sim-Domain image, the model should output an image, which was transformed into the Intraop-Domain and vice versa. These results do not play a role in the final rankings, but should provide insights on the quality of image-to-image transformation. Example images will be shown during the workshop event and in the joint publication. Depending on the number of submissions, an additional user-study with domain experts might be conducted at a later stage.
+    - (Optional:) When running a pre-defined command on a Sim-Domain image, the model should output an image, which was **transformed** into the Intraop-Domain and vice versa. These results do not play a role in the final rankings, but should provide insights on the quality of image-to-image transformation. Example images will be shown during the workshop event and in the joint publication. Depending on the number of submissions, an additional user-study with domain experts might be conducted at a later stage.
 
 Teams are encouraged to provide their code open source and to add the URL in the LNCS paper.  
 Participants agree that the challenge organizers are allowed to use their submitted docker containers to run further meta-analysis.
@@ -43,4 +43,4 @@ We exclude false negative rate (FNR) in the ranking, since it is related to TPR 
 
 #### Result announcement
 All the results will be made available publicly. The announcement of the winner will be made at the workshop and the website will be updated accordingly. 
-All teams should participate in the workshop and will be invited to the half-day challenge event to present their work in more detail, which we hope will foster detailed discussions. In case of a virtual event, we will seek for providing discussion opportunities in small groups.
+All teams should participate in the workshop and will be invited to present their work in more detail, which we hope will foster detailed discussions. In case of a virtual event, we will seek for providing discussion opportunities in small groups.
