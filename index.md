@@ -60,7 +60,7 @@ Preprint: <a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
 - No additional training data and no models pre-trained on other datasets are allowed.
 - Each team is only allowed to register once and all submissions must be done from the same account.
 - A single participant is only allowed to be part of one team.
-- Paticipanting teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.
+- Paticipating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.
 
 ### Prizes
 Certificates will be provided for the top 3 performing teams. We are in the process of seeking sponsorship of the winner(s) of the challenge from industry partners. (TBA)
