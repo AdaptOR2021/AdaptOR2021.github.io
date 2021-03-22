@@ -47,14 +47,12 @@ Domain Adaptation, Generative Models, Landmark Detection, Deep Learning, Machine
 <div class="smaller-text">
 [<a id="1">1</a>] <a href="https://www.escardio.org/Journals/E-Journal-of-Cardiology-Practice/Volume-16/Mitral-valve-incompetence-epidemiology-and-causes">https://www.escardio.org/Journals/E-Journal-of-Cardiology-Practice/Volume-16/Mitral-valve-incompetence-epidemiology-and-causes</a><br><br>
 
-[<a id="2">2</a>] Engelhardt S., De Simone R., Full P.M., Karck M., Wolf I. (2018) Improving Surgical Training Phantoms by Hyperrealism: Deep Unpaired Image-to-Image Translation from Real Surgeries. In: Frangi A., Schnabel J., Davatzikos C., Alberola-López C., Fichtinger G. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vol 11070. Springer, Cham, doi: <a href="https://doi.org/10.1007/978-3-030-00928-1_84">10.1007/978-3-030-00928-1_84</a> <br><br>
+[<a id="2">2</a>] Engelhardt S., De Simone R., Full P.M., Karck M., Wolf I. (2018) Improving Surgical Training Phantoms by Hyperrealism: Deep Unpaired Image-to-Image Translation from Real Surgeries. In: Frangi A., Schnabel J., Davatzikos C., Alberola-López C., Fichtinger G. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2018. MICCAI 2018. Lecture Notes in Computer Science, vol 11070. Springer, Cham, doi: <a href="https://doi.org/10.1007/978-3-030-00928-1_84">10.1007/978-3-030-00928-1_84</a> Preprint: <a href="https://arxiv.org/abs/1806.03627">1806.03627</a><br><br>
 
+[<a id="3">3</a>] Engelhardt, S., Sharan, L., Karck, M., De Simone, R., Wolf, I. (2019), Cross-Domain Conditional Generative Adversarial Networks for Stereoscopic Hyperrealism in Surgical Training. In: Shen D. et al. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. MICCAI 2019. Lecture Notes in Computer Science, vol 11768. Springer, Cham, pp 155-163, doi: <a href="https://doi.org/10.1007/978-3-030-32254-0_18">https://doi.org/10.1007/978-3-030-32254-0_18</a> Preprint: <a href="https://arxiv.org/abs/1906.10011">1906.10011</a> <br><br>
 
-[<a id="3">3</a>] Engelhardt, S., Sharan, L., Karck, M., De Simone, R., Wolf, I. (2019), Cross-Domain Conditional Generative Adversarial Networks for Stereoscopic Hyperrealism in Surgical Training. In: Shen D. et al. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. MICCAI 2019. Lecture Notes in Computer Science, vol 11768. Springer, Cham, pp 155-163, doi: <a href="https://doi.org/10.1007/978-3-030-32254-0_18">https://doi.org/10.1007/978-3-030-32254-0_18</a> <br><br>
-
-[<a id="4">4</a>] Stern, A., Sharan, L., Romano, G.,  Koehler, S., Karck, M.,  De Simone, R.,  Wolf, I., Engelhardt, S., Heatmap-based 
-2D Landmark Detection with a Varying Number of Landmarks, Bildverarbeitung für die Medizin 2021 (accepted), 
-arXiv:<a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
+[<a id="4">4</a>] Stern, A., Sharan, L., Romano, G.,  Koehler, S., Karck, M.,  De Simone, R.,  Wolf, I., Engelhardt, S. (2021), Heatmap-based 2D Landmark Detection with a Varying Number of Landmarks. In: Palm C., Deserno T.M., Handels H., Maier A., Maier-Hein K., Tolxdorff T. (eds) Bildverarbeitung für die Medizin 2021. Informatik aktuell. Springer Vieweg, Wiesbaden. <a href="https://doi.org/10.1007/978-3-658-33198-6_7">https://doi.org/10.1007/978-3-658-33198-6_7</a>
+Preprint: <a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
 </div>
 
 ### Rules
