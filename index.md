@@ -38,6 +38,10 @@ In general, we think the underlying detection task could be solved differently:
 The authors should detail on their approaches in their submitted LNCS papers.
 In case an image-to-image translation task was solved, we will provide visual examples of the generative model's output for visual comparison. These results are qualitative and will not be considered in the ranking scheme. We hypothesize that the quantitative assessment for landmark detection may be an indicator for the quality of the domain transfer with respect to the consistency of sutures in both domains.
 
+### Challenge Document
+
+DOI <a href="https://zenodo.org/record/4572679#.YFjEN9wxk2w">10.5281/zenodo.4572678</a>
+
 ### Keywords
 <div class="smaller-text">
 Domain Adaptation, Generative Models, Landmark Detection, Deep Learning, Machine Learning
