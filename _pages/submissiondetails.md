@@ -21,9 +21,9 @@ The challenge will be split into **three phases**: Training phase, Platform test
 
 During **training phase**, the participating teams will be able to independently validate their results using crossvalidation on the training data.
 
-During the platform **testing phase**, they are allowed to use the official submission platform to resolve potential technical issues. We will use dummy datasets for sanity checks, e.g. to ensure the submission is in the correctformat.
+During the platform **testing phase**, they are allowed to use the official submission platform to resolve potential technical issues. We will use dummy datasets for sanity checks, e.g. to ensure the submission is in the correct format.
 
-During the **test phase**, participants are allowed to make in total three submissions. The best result out of these three is selected as final result.
+During the **test phase**, participants are allowed to make in total three submissions. The best result out of these three is selected as final result. The docker will run on a **24 Gb RAM Nvidia Titan RTX**. Make sure the specified batch size in your code does not exceed the 24 Gb limit. 
 
 <img src="/assets/images/submission_details.png">
 
