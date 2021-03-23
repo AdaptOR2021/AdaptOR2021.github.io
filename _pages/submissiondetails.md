@@ -25,7 +25,7 @@ During the platform **testing phase**, they are allowed to use the official subm
 
 During the **test phase**, participants are allowed to make in total three submissions. The best result out of these three is selected as final result. The docker will run on a **24 Gb RAM Nvidia Titan RTX**. Make sure the specified batch size in your code does not exceed the 24 Gb limit. 
 
-<img src="/assets/images/submission_details.png">
+<img src="/assets/images/submission_details.png" alt="Submission details" srcset="/assets/images/submission_details-medium.png 1212w, /assets/images/submission_details-small.png 606w, /assets/images/submission_details-mini.png 184w" sizes="50vw">
 
 ### Evaluation
 

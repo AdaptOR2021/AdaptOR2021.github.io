@@ -303,14 +303,7 @@ defaults:
       image: /assets/images/AdaptOR.png
       classes: wide
       sidebar:
-        - image: "/assets/images/AdaptOR.png"
-          url: "https://adaptor2021.github.io/"
-        - image: "/assets/images/miccailogo.png"
-          url  : "https://miccai2021.org/en/"
-        - image: "/assets/images/UKHD.png"
-          url  : "https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine"
-        - image: "/assets/images/TU_Darmstadt.png"
-          url  : "https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp"
+        true
       layout: home
       author_profile: false
       read_time: true
@@ -327,11 +320,4 @@ defaults:
       layout: home
       author_profile: false
       sidebar:
-        - image: "/assets/images/AdaptOR.png"
-          url: "https://adaptor2021.github.io/"
-        - image: "/assets/images/miccailogo.png"
-          url  : "https://miccai2021.org/en/"
-        - image: "/assets/images/UKHD.png"
-          url  : "https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine"
-        - image: "/assets/images/TU_Darmstadt.png"
-          url  : "https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp"
+        true

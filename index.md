@@ -6,19 +6,12 @@ title: "AdaptOR: Deep Generative Model Challenge for Domain Adaptation in Surger
 classes: wide
 image: /assets/images/AdaptOR.png
 sidebar:
-  - image: "/assets/images/AdaptOR.png"
-    url: "https://adaptor2021.github.io/"
-  - image: "/assets/images/miccailogo.png"
-    url  : "https://miccai2021.org/en/"
-  - image: "/assets/images/UKHD.png"
-    url  : "https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine"
-  - image: "/assets/images/TU_Darmstadt.png"
-    url  : "https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp"
+  true
 ---
 {% seo %}
 
 <div class="centered">
-  <img class="centered-image" src="assets/images/SignatureImage.jpg">
+  <img src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
 ### Challenge Abstract 
