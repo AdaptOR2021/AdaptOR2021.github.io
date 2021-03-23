@@ -11,7 +11,7 @@ sidebar:
 {% seo %}
 
 <div class="centered">
-  <img src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
+  <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
 ### Challenge Abstract 
