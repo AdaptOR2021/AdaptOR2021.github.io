@@ -35,7 +35,7 @@ During the **test phase**, participants are allowed to make in total three submi
 We will make the code available on the synapse platform that will be used to compute the metrics for ranking.
 
 We will report **true positives**, **false positives** and **false negatives**.
-A landmark is counted as true positive, if it lies within a radius of 6 pixels around the manually labeled point, same as in [4]. This accounts for the fact that the region, where the suture enters or exits the tissue, is usually a small region and not just a single pixel. Finally, we report **sensitivity/recall** (TPR) and **precision** (PPV).
+A landmark is counted as true positive, if it lies within a radius of 6 pixels around the manually labeled point, same as in [[4]({{ site.url }}#4)]. This accounts for the fact that the region, where the suture enters or exits the tissue, is usually a small region and not just a single pixel. Finally, we report **sensitivity/recall** (TPR) and **precision** (PPV).
 
 #### Ranking
 
