@@ -37,4 +37,4 @@ The ground truth was produced by two students with basic knowledge of the surgic
 Training set: Annotations by student2 were additionally checked by student1 and vice versa.  
 Test set: Annotations were made by both students independently and the mean was computed to determine the final landmark position.
 
-The annotation was conducted in temporal order. Besides the coordinates, the rater annotated whether he/she found it easy/medium/hard to annotate the frame. More information about the labeling strategy can be found <a href="/assets/files/Labeln_ENG-v1.pdf">here</a>.
+The annotation was conducted in temporal order. More information about the labeling strategy can be found <a href="/assets/files/Labeln_ENG-v1.pdf">here</a>.
