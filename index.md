@@ -33,7 +33,7 @@ In case an image-to-image translation task was solved, we will provide visual ex
 
 ### Challenge Document
 
-DOI <a href="https://zenodo.org/record/4572679#.YFjEN9wxk2w">10.5281/zenodo.4572678</a>
+DOI <a href="https://zenodo.org/record/4646979#.YGMXXD9CQ2w">10.5281/zenodo.4646979 (v2)</a>
 
 ### Keywords
 <div class="smaller-text">
