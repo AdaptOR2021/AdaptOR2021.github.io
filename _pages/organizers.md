@@ -1,11 +1,11 @@
 ---
-title: "Team"
-permalink: /team/
+title: "Organizers"
+permalink: /organizers/
 layout: home
 summary: "The organizers and supporting team of AdaptOR2021"
 ---
 
-### <a id="Organizers" class="uncolored_link">Organizers</a>
+### <a id="Organizing_Team" class="uncolored_link">Organizing Team</a>
 
 <div class="organizers">
     <div class="organizer">

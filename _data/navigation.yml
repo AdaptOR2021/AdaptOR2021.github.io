@@ -7,7 +7,7 @@ main:
     url: /registration/
   - title: "Timeline"
     url: /timeline/
-  - title: "Team"
-    url: /team/
+  - title: "Organizers"
+    url: /organizers/
   - title: "FAQ"
     url: /faq/
