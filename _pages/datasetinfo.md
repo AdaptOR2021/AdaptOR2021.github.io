@@ -4,14 +4,14 @@ permalink: /datasetinfo/
 layout: home
 summary: "Information about data usage, data and labeling"
 ---
-### Data Usage
+### <a id="Data_Usage" class="uncolored_link">Data Usage</a>
 By **registering** in the challenge, each team agrees (1) to use the data provided only in the
 scope of the challenge and (2) to neither pass it on to a third party nor to use it for any additional publication or for commercial use. 
 
 After the challenge, the data will be made publicy available for non-commercial use (CC BY NC SA). 
 An **embargo period** until the availability of the planned journal paper will be put in place.
 
-### Data
+### <a id="Data" class="uncolored_link">Data</a>
 The challenge cohort splits into two sets:
 1. data acquired during simulating mitral valve repair on a surgical simulator ("Sim-Domain“),
 2. intraoperative endoscopic data from mitral valve repair ("Intraop-Domain").
@@ -32,7 +32,7 @@ Besides the frames themselves, we release to which (anonymized) patient and doma
 
 The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. We balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score.
 
-### Labeling
+### <a id="Labeling" class="uncolored_link">Labeling</a>
 The ground truth was produced by two students with basic knowledge of the surgical steps. They both followed a pre-defined labeling strategy and used the software „[label me](https://github.com/wkentaro/labelme)“.  
 Training set: Annotations by student2 were additionally checked by student1 and vice versa.  
 Test set: Annotations were made by both students independently and the mean was computed to determine the final landmark position.

@@ -5,7 +5,7 @@ layout: home
 summary: "The organizers and supporting team of AdaptOR2021"
 ---
 
-### Organizers
+### <a id="Organizers" class="uncolored_link">Organizers</a>
 <div class="organizers">
     <div class="organizer">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
@@ -31,7 +31,7 @@ summary: "The organizers and supporting team of AdaptOR2021"
     </div>
 </div>
 
-### Supporting Team
+### <a id="Supporting_Team" class="uncolored_link">Supporting Team</a>
 Artificial Intelligence of Cardiovascular Medicine (AICM-Lab), Heidelberg University Hospital
 <div class="team_members">
     <div class="team_member">
@@ -65,7 +65,7 @@ Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
     </div>
 </div>
 
-### General Contact
+### <a id="General_Contact" class="uncolored_link">General Contact</a>
 [adaptor.challenge@gmail.com](mailto:adaptor.challenge@gmail.com)
 
 [LalithNag.SharanGururaj@med.uni-heidelberg.de](mailto:LalithNag.SharanGururaj@med.uni-heidelberg.de)

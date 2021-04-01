@@ -5,7 +5,7 @@ layout: home
 summary: "Information about the schedule and publication"
 ---
 
-### Schedule
+### <a id="Schedule" class="uncolored_link">Schedule</a>
 
 <article>
     <dl>
@@ -60,7 +60,7 @@ summary: "Information about the schedule and publication"
     </dl>
 </article>
 
-### Publication
+### <a id="Publication" class="uncolored_link">Publication</a>
 
 1. Challenge participants must submit an 8-page  **LNCS format paper** a week after docker container submission (date is subject to change depending on the MICCAI 2021 workshop dates). This paper should include details of their methods and initial results produced on their **own split of the training data**. CMT will be used for submission. There are no restrictions on the number of authors. As of now, this paper will be published after review in the associated **Deep Generative Model (DGM4MICCAI)** workshop proceedings (workshop proposal under review). 
 After the challenge results are announced, the authors will become the chance to update their papers to include the latest results on the official test set (one week in Sept/Oct).

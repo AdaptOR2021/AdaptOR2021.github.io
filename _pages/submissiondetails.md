@@ -5,7 +5,7 @@ layout: home
 summary: "Information about the submission and the evaluation"
 ---
 
-## Submission
+## <a id="Submission" class="uncolored_link">Submission</a>
 
 For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit the following:
 
@@ -28,22 +28,22 @@ During the **test phase**, participants are allowed to make in total three submi
 
 <img src="/assets/images/submission_details.png" srcset="/assets/images/submission_details.png 1836w, /assets/images/submission_details-medium.png 1212w, /assets/images/submission_details-small.png 606w, /assets/images/submission_details-mini.png 184w" sizes="50vw">
 
-### Evaluation
+### <a id="Evaluation" class="uncolored_link">Evaluation</a>
 
-#### Metrics And Reporting
+#### <a id="Metrics_And_Reporting" class="uncolored_link">Metrics And Reporting</a>
 
 We will make the code available on the synapse platform that will be used to compute the metrics for ranking.
 
 We will report **true positives**, **false positives** and **false negatives**.
 A landmark is counted as true positive, if it lies within a radius of 6 pixels around the manually labeled point, same as in [[4]({{ site.url }}#4)]. This accounts for the fact that the region, where the suture enters or exits the tissue, is usually a small region and not just a single pixel. Finally, we report **sensitivity/recall** (TPR) and **precision** (PPV).
 
-#### Ranking
+#### <a id="Ranking" class="uncolored_link">Ranking</a>
 
 Precision and Recall are computed over all landmarks in the test sets. It is not differentiated whether the prediction is particulary well for certain frames/patients/simulations and worse for others.  
 The traditional F-score or **balanced F-score** (F1 score) presents the harmonic mean of precision and recall and will be used to determine the ranking (the higher the better).
 We exclude false negative rate (FNR) in the ranking, since it is related to TPR by TPR = 1-FNR. In the case where all metrics are tied, we will accept to have multiple teams with the same ranking.
 
-#### Result announcement
+#### <a id="Result_announcement" class="uncolored_link">Result announcement</a>
 
 All the results will be made available publicly. The announcement of the winner will be made at the workshop and the website will be updated accordingly.
 All teams should participate in the workshop and will be invited to present their work in more detail, which we hope will foster detailed discussions. In case of a virtual event, we will seek for providing discussion opportunities in small groups.
