@@ -70,8 +70,8 @@ Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
 
 [LalithNag.SharanGururaj@med.uni-heidelberg.de](mailto:LalithNag.SharanGururaj@med.uni-heidelberg.de)
 
-[Sandy.engelhardt@med.uni-heidelberg.de](mailto:Sandy.engelhardt@med.uni-heidelberg.de)
+[Sandy.engelhardt@med.uni-heidelberg.de](mailto:Sandy.Engelhardt@med.uni-heidelberg.de)
 <br>
 
 
- <a href="https://informatics4life.org/" width="100"><img src="/assets/images/I4L-Logo.jpg"></a><br>
+ <a href="https://informatics4life.org/"><img src="/assets/images/I4L-Logo.jpg" width="200px"></a><br>
