@@ -6,6 +6,7 @@ summary: "The organizers and supporting team of AdaptOR2021"
 ---
 
 ### <a id="Organizers" class="uncolored_link">Organizers</a>
+
 <div class="organizers">
     <div class="organizer">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
@@ -32,7 +33,9 @@ summary: "The organizers and supporting team of AdaptOR2021"
 </div>
 
 ### <a id="Supporting_Team" class="uncolored_link">Supporting Team</a>
+
 Artificial Intelligence in Cardiovascular Medicine (AICM-Lab), Heidelberg University Hospital
+
 <div class="team_members">
     <div class="team_member">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
@@ -57,6 +60,7 @@ Artificial Intelligence in Cardiovascular Medicine (AICM-Lab), Heidelberg Univer
 </div>
 
 Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
+
 <div class="team_members tud">
     <div class="team_member tud">
         <a href="https://www.informatik.tu-darmstadt.de/gris/forschung_1/medical_computing/index.de.jsp">
@@ -66,6 +70,7 @@ Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
 </div>
 
 ### <a id="General_Contact" class="uncolored_link">General Contact</a>
+
 [adaptor.challenge@gmail.com](mailto:adaptor.challenge@gmail.com)
 
 [LalithNag.SharanGururaj@med.uni-heidelberg.de](mailto:LalithNag.SharanGururaj@med.uni-heidelberg.de)
@@ -73,5 +78,4 @@ Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
 [Sandy.engelhardt@med.uni-heidelberg.de](mailto:Sandy.Engelhardt@med.uni-heidelberg.de)
 <br>
 
-
- <a href="https://informatics4life.org/"><img src="/assets/images/I4L-Logo.jpg" width="200px"></a><br>
+<a href="https://informatics4life.org/"><img href="https://informatics4life.org/" src="/assets/images/I4L-Logo.jpg" srcset="/assets/images/I4L-Logo.jpg 1440w, /assets/images/I4L-Logo-medium.jpg 950w, /assets/images/I4L-Logo-small.jpg 475w, /assets/images/I4L-Logo-mini.jpg 144w" sizes="50vw" width="200px"></a><br>
