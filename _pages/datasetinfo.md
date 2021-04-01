@@ -12,9 +12,13 @@ After the challenge, the data will be made publicy available for non-commercial 
 An **embargo period** until the availability of the planned journal paper will be put in place.
 
 ### <a id="Data" class="uncolored_link">Data</a>
-The challenge cohort splits into two sets:
+
+Mitral valve repair is a heart surgery, which is aimed at re-storing the function of the mitral valve. During the surgery, the valve is not replaced but an annoloplasty ring is inserted to stabilize the mitral annulus. The prosthetic ring is anchored by white and blue matress sutures stitched in a particular pattern into the annulus. 
+The goal of this challenge is to detect the points where these sutures enter or exit the tissue before the ring is sewed. 
+
+The challenge cohort splits into two endoscopic sets:
 1. data acquired during simulating mitral valve repair on a surgical simulator ("Sim-Domain“),
-2. intraoperative endoscopic data from mitral valve repair ("Intraop-Domain").
+2. intraoperative endoscopic data from real minimally invasive mitral valve repair ("Intraop-Domain").
 
 <u>Training Sim-Domain:</u>  
 2708 mono frames from 10 simulations (192-374 frames each) with approx. 33500 annotated landmarks.
@@ -33,8 +37,10 @@ Besides the frames themselves, we release to which (anonymized) patient and doma
 The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. We balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score.
 
 ### <a id="Labeling" class="uncolored_link">Labeling</a>
-The ground truth was produced by two students with basic knowledge of the surgical steps. They both followed a pre-defined labeling strategy and used the software „[label me](https://github.com/wkentaro/labelme)“.  
-Training set: Annotations by student2 were additionally checked by student1 and vice versa.  
-Test set: Annotations were made by both students independently and the mean was computed to determine the final landmark position.
 
-The annotation was conducted in temporal order. More information about the labeling strategy can be found <a href="/assets/files/Labeln_ENG-v1.pdf">here</a>.
+Annotating the frames is not trivial due to the thin nature of these sutures, heavy occlusions by instruments, self-occlussions, color changes on the sutures (they turn red during the surgery) and blood in the scene. 
+The ground truth was produced by two students with basic knowledge of the surgical steps. They both followed a pre-defined labeling strategy and used the software „[label me](https://github.com/wkentaro/labelme)“.  
+Training set: Annotations were additionally checked by two other experts and unclear cases where discussed until a consenus could be reached.
+Test set: Annotations were made by student1 and student2 independently and the mean was computed to determine the final landmark position. Annotations were additionally checked by two other experts and unclear cases where discussed until a consenus could be reached.
+
+The annotation was conducted in temporal order on the stereo images. More information about the labeling strategy can be found <a href="/assets/files/Labeln_ENG-v1.pdf">here</a>.
