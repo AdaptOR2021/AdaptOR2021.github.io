@@ -3,8 +3,8 @@ main:
     url: /datasetinfo/
   - title: "Submission Details"
     url: /submissiondetails/
-  - title: "Downloads"
-    url: /downloads/
+  - title: "Registration"
+    url: /registration/
   - title: "Timeline"
     url: /timeline/
   - title: "Team"
