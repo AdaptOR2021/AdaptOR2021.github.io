@@ -11,7 +11,7 @@ scope of the challenge and (2) to neither pass it on to a third party nor to use
 After the challenge, the data will be made publicy available for non-commercial use (CC BY NC SA). 
 An **embargo period** until the availability of the planned journal paper will be put in place.
 
-### <a id="Data" class="uncolored_link">Mitral Valve Repair</a>
+### <a id="MVRepair" class="uncolored_link">Mitral Valve Repair</a>
 
 Mitral valve repair is a heart surgery, which is aimed at re-storing the function of the mitral valve. During the surgery, the valve is not replaced but an **annoloplasty ring** is inserted to stabilize the mitral annulus. The prosthetic ring is anchored by **white and blue matress sutures** stitched in a particular pattern into the annulus. 
 The goal of this challenge is to detect the **points where these sutures enter or exit the tissue** before the ring is sewed. 
@@ -49,7 +49,8 @@ Test set: Annotations were made by student1 and student2 independently and the m
 
 The annotation was conducted in temporal order on the stereo images. More information about the labeling strategy can be found <a href="/assets/files/Labeln_ENG-v1.pdf">here</a>.
 
-
+<br>
+### <a id="References" class="uncolored_link">References</a>
 
 [1] Engelhardt S, Sauerzapf S, Brčić A, Karck M, Wolf I, De Simone R. Replicated mitral valve models from real patients offer training opportunities for minimally invasive mitral valve repair. Interact Cardiovasc Thorac Surg. 2019 Jul 1;29(1):43-50. doi: 10.1093/icvts/ivz008.
 
