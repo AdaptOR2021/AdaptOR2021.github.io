@@ -25,6 +25,8 @@ The challenge cohort splits into two endoscopic sets:
 1. Data acquired during **simulating mitral valve repair** on a surgical simulator ("Sim-Domain“). Valvular anatomy was extracted from 3D transesophageal echocardiography. More information on the simulator can be found in [1] and [2].
 2. Intraoperative endoscopic data from **real minimally invasive mitral valve repair** ("Intraop-Domain").
 
+Data was recorded by a stereo-endoscope, which delivers two images of the same scene at the same time. However, within this challenge, the left and right image of the stereo pair are treated independently. Any stereo-pair references have been deleted. 
+
 **Training Sim-Domain:**
 2708 mono frames from 10 simulations (192-374 frames each) with 33872 annotated landmarks.
 
@@ -36,7 +38,7 @@ The challenge cohort splits into two endoscopic sets:
 
 The idea behind the challenge is to keep the number of intraoperative patients low to force participants to incorporate the frames from Sim-Domain in the training process to achieve better **generalization performance**.
 
-Besides the frames themselves, we release to which (anonymized) patient and domain the frame belongs to. Additionally, for the training set, the image coordinates of the target landmarks are provided. Image format varied and was reduced to 512 x 288 to reduce storage and computational costs.
+Besides the frames themselves, we release to which (anonymized) patient and domain the frame belongs to. Additionally, for the training set, the image coordinates of the target landmarks are provided. Image format varied and was reduced to 512 x 288 to reduce storage and computational costs. A very small portion of the data set contains  frames without labeled sutures. These frames have not been deleted from the data set since its corresponding left or right image contained a visible suture.
 
 The number of frames per simulation/patient in the training data set are not equal, but are on the same scale. We balanced the number of frames per patient in the test data. Therefore, each patient in the test set has a similar influence on the final score.
 
