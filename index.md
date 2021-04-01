@@ -14,13 +14,15 @@ sidebar:
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
+### <a id="News" class="uncolored_link">News </a>
+
+April 1st, 2021 - Training phase starts: Datasets are now available and teams can register  on the <a href="https://www.synapse.org/#!Synapse:syn25314439">Synapse platform</a>! 
+
 ### <a id="Challenge_Abstract" class="uncolored_link">Challenge Abstract </a>
 Mitral regurgitation (MR) is the second most frequent indication for valve surgery in Europe and may occur for organic or functional causes [[1](#1)]. Mitral valve repair, although considerably more difficult, is prefered over mitral valve replacement, since the native tissue of the valve is preserved. It is a complex on-pump heart surgery, often conducted only by a handful of surgeons in high-volume centers. Minimally invasive procedures, which are performed with endoscopic video recordings, became more and more popular in recent years. However, data availability and data privacy concerns are still an issue for the development of automatic scene analysis algorithms. The AdaptOR challenge aims to address these issues by formulating a domain adaptation problem „from simulation to surgery“: We provide a smaller number of datasets from real surgeries, and a larger number of annotated recordings of training and planning sessions from a physical mitral valve simulator. The goal is to reduce the considerable domain gap between simulation and intraoperative cases, e.g. by incorporating generative models, as in [[2](#2),[3](#3)].
 
 The task associated to the domain adaptation itself is to detect a varying number of 2D landmarks per frame [[4](#4)] in the target domain. The landmarks are defined by the placement of sutures during mitral annuloplasty (entry and exit points into the tissue), which renders useful for surgical skill assessment and detailed intraoperative documentation. The evaluation metrics of this challenge will be related to how well these points could be identified in unseen intraoperative scenes, therefore it is also possible to only come up with a solution to a landmark detection problem in a single domain. More complex methods, however, would leverage data from both domains and adapt them on input-, output-, and/or feature level. Due to the specific clinical motivation of improving the realism of surgical simulation [[2](#2),[3](#3)], the AdaptOR challenge especially aims to provide a framework for comparison of the performance of different image-to-image translation approaches. Such approaches need to learn how to sucessfully transform the images into an intraoperative appearance, thereby not altering already realistic entities of the image (surgical instruments, sutures, needles etc.). While this can be merely assessed visually, and we will show example results during the workshop, we hypothesize that the success of landmark detection may be an indicator for the quality of the transfer with respect to the consistency of sutures in both domains.
 
-<div class="centered"><img src="/assets/images/example-medium.gif" srcset="/assets/images/example-medium.gif 1014w, /assets/images/example-small.gif 507w, /assets/images/example-mini.gif 154w" sizes="50vw"></div>
-*Figure 1. Example of domain transfer done with tempCycleGAN from [[2](#2)]. Left: Original video from a simulator. Center: Frames transformed into intraoperative appearance. Right: Backtransformed video frames.*
 
 ### <a id="More_Background" class="uncolored_link">More Background </a>
 In our surgical training scenario, there is a clinical need for transforming not-so-realistic phantom data into more realistic surgical images [[2](#2),[3](#3)]. Therefore, we encourage the participants to use image-to-image translation approaches, however, this is not mandatory.  
@@ -33,6 +35,9 @@ In general, we think the underlying detection task could be solved differently:
 
 The authors should detail on their approaches in their submitted LNCS papers.
 In case an image-to-image translation task was solved, we will provide visual examples of the generative model's output for visual comparison. These results are qualitative and will not be considered in the ranking scheme. We hypothesize that the quantitative assessment for landmark detection may be an indicator for the quality of the domain transfer with respect to the consistency of sutures in both domains.
+
+<div class="centered"><img src="/assets/images/example-medium.gif" srcset="/assets/images/example-medium.gif 1014w, /assets/images/example-small.gif 507w, /assets/images/example-mini.gif 154w" sizes="50vw"></div>
+*Figure 1. Example of domain transfer done with tempCycleGAN from [[2](#2)]. Left: Original video from a simulator. Center: Frames transformed into intraoperative appearance. Right: Backtransformed video frames.*
 
 ### <a id="Challenge_Document" class="uncolored_link">Challenge Document</a>
 
