@@ -16,6 +16,9 @@ An **embargo period** until the availability of the planned journal paper will b
 **Mitral valve repair** is a heart surgery, which is aimed at re-storing the function of the mitral valve. During the surgery, the valve is not replaced but an **annoloplasty ring** is inserted to stabilize the mitral annulus. The prosthetic ring is anchored by **white and blue matress sutures** stitched in a particular pattern into the annulus. 
 The goal of this challenge is to detect the points where these sutures enter or exit the tissue before the ring is sewed. 
 
+<img src="../assets/images/Data_explanation.png">
+*Figure 1. Illustration of mitral valve annuloplasty (phase without ring).*
+
 The challenge cohort splits into two endoscopic sets:
 1. Data acquired during **simulating mitral valve repair** on a surgical simulator ("Sim-Domain“). Valvular anatomy was extracted from 3D transesophageal echocardiography. More information on the simulator can be found in [1] and [2].
 2. Intraoperative endoscopic data from **real minimally invasive mitral valve repair** ("Intraop-Domain").
