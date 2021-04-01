@@ -12,7 +12,7 @@ summary: "The organizers and supporting team of AdaptOR2021"
         <img src="/assets/images/engelhardt.jpg" srcset="/assets/images/engelhardt.jpg 213w, /assets/images/engelhardt-medium.jpg 141w, /assets/images/engelhardt-small.jpg 70w, /assets/images/engelhardt-mini.jpg 21w" sizes="50vw"><br>
         <span class="organizer_name">Sandy Engelhardt</span><br>
         University Hospital Heidelberg<br>
-        Artificial Intelligence of Cardiovascular Medicine (AICM-Lab)<br>
+        Artificial Intelligence in Cardiovascular Medicine (AICM-Lab)<br>
         Heidelberg University Hospital</a>
     </div>
     <div class="organizer">
@@ -32,7 +32,7 @@ summary: "The organizers and supporting team of AdaptOR2021"
 </div>
 
 ### <a id="Supporting_Team" class="uncolored_link">Supporting Team</a>
-Artificial Intelligence of Cardiovascular Medicine (AICM-Lab), Heidelberg University Hospital
+Artificial Intelligence in Cardiovascular Medicine (AICM-Lab), Heidelberg University Hospital
 <div class="team_members">
     <div class="team_member">
         <a href="https://www.klinikum.uni-heidelberg.de/chirurgische-klinik-zentrum/herzchirurgie/forschung/ag-artificial-intelligence-in-cardiovascular-medicine">
@@ -70,4 +70,8 @@ Medical and Environmental Computing (MEC-Lab), Technical University Darmstadt
 
 [LalithNag.SharanGururaj@med.uni-heidelberg.de](mailto:LalithNag.SharanGururaj@med.uni-heidelberg.de)
 
-[Sandy.engelhardt@med.uni-heidelberg.de](mailto:Sandy.engelhardt@med.uni-heidelberg.de)
+[Sandy.engelhardt@med.uni-heidelberg.de](mailto:Sandy.Engelhardt@med.uni-heidelberg.de)
+<br>
+
+
+ <a href="https://informatics4life.org/"><img src="/assets/images/I4L-Logo.jpg" width="200px"></a><br>
