@@ -11,13 +11,15 @@ scope of the challenge and (2) to neither pass it on to a third party nor to use
 After the challenge, the data will be made publicy available for non-commercial use (CC BY NC SA). 
 An **embargo period** until the availability of the planned journal paper will be put in place.
 
-### <a id="Data" class="uncolored_link">Data</a>
+### <a id="Data" class="uncolored_link">Mitral Valve Repair</a>
 
-**Mitral valve repair** is a heart surgery, which is aimed at re-storing the function of the mitral valve. During the surgery, the valve is not replaced but an **annoloplasty ring** is inserted to stabilize the mitral annulus. The prosthetic ring is anchored by **white and blue matress sutures** stitched in a particular pattern into the annulus. 
-The goal of this challenge is to detect the points where these sutures enter or exit the tissue before the ring is sewed. 
+Mitral valve repair is a heart surgery, which is aimed at re-storing the function of the mitral valve. During the surgery, the valve is not replaced but an **annoloplasty ring** is inserted to stabilize the mitral annulus. The prosthetic ring is anchored by **white and blue matress sutures** stitched in a particular pattern into the annulus. 
+The goal of this challenge is to detect the **points where these sutures enter or exit the tissue** before the ring is sewed. 
 
-<img src="../assets/images/Data_explanation.png">
+<img src="../assets/images/Data_explanation.png"><br>
 *Figure 1. Illustration of mitral valve annuloplasty (phase without ring).*
+
+### <a id="Data" class="uncolored_link">Data</a>
 
 The challenge cohort splits into two endoscopic sets:
 1. Data acquired during **simulating mitral valve repair** on a surgical simulator ("Sim-Domain“). Valvular anatomy was extracted from 3D transesophageal echocardiography. More information on the simulator can be found in [1] and [2].
@@ -40,7 +42,7 @@ The number of frames per simulation/patient in the training data set are not equ
 
 ### <a id="Labeling" class="uncolored_link">Labeling</a>
 
-Annotating the frames is not trivial due to the thin nature of these sutures, heavy occlusions by instruments, self-occlussions, color changes on the sutures (they turn red during the surgery) and blood in the scene. 
+Annotating the frames is not trivial due to the thin nature of these sutures, **heavy occlusions** by instruments, self-occlussions, color changes on the sutures (they turn red during the surgery) and blood in the scene. 
 The ground truth was produced by two students with basic knowledge of the surgical steps. They both followed a pre-defined labeling strategy and used the software „[label me](https://github.com/wkentaro/labelme)“.  
 Training set: Annotations were additionally checked by two other experts and unclear cases where discussed until a consenus could be reached.
 Test set: Annotations were made by student1 and student2 independently and the mean was computed to determine the final landmark position. Annotations were additionally checked by two other experts and unclear cases where discussed until a consenus could be reached.
