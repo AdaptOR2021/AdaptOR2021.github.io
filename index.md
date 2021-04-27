@@ -15,8 +15,9 @@ sidebar:
 </div>
 
 ### <a id="News" class="uncolored_link">News </a>
-April 9st, 2021 - To jump-start our participants' work, <a href="https://www.synapse.org/#!Synapse:syn25470804"> helper functions </a> in python can be found on the Synapse platform.  
-April 1st, 2021 - Training phase starts: Datasets are now available and teams can register on the <a href="https://www.synapse.org/#!Synapse:syn25314439">Synapse platform</a>!
+* April 27th, 2021 - It's now official: The AdaptOR Challenge will be hosted by the <a href="https://dgm4miccai.github.io/">DGM4MICCAI Workshop</a>.  
+* April 9th, 2021  - To jump-start our participants' work, <a href="https://www.synapse.org/#!Synapse:syn25470804"> helper functions </a> in python can be found on the Synapse platform.  
+* April 1st, 2021  - Training phase starts: Datasets are now available and teams can register on the <a href="https://www.synapse.org/#!Synapse:syn25314439">Synapse platform</a>!
 
 
 ### <a id="Challenge_Abstract" class="uncolored_link">Challenge Abstract </a>
