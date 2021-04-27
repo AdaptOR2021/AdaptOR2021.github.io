@@ -74,7 +74,7 @@ logo: /assets/images/AdaptOR.png
 tagline: "AdaptOR2021 - Deep Generative Model Challenge for Domain Adaptation in Surgery - MICCAI2021"
 author: "AdaptOR2021"
 twitter:
-  username:
+  username: "AdaptOR2021"
   card: summary
   image:
     path: /assets/images/AdaptOR.png
@@ -89,8 +89,8 @@ webmaster_verifications:
   google: 3sicxbE-ONzgOKPyG7Q44dg2N0vDu341eMBHhzC6Ris
 
 # Social Sharing
-# twitter:
-#   username               :
+twitter:
+  username               : "AdaptOR2021"
 # facebook:
 #   username               :
 #   app_id                 :
@@ -174,6 +174,9 @@ footer:
      - label: "Sandy Engelhardt"
        icon: "fas fa-fw fa-envelope-square"
        url: mailto:Sandy.engelhardt@med.uni-heidelberg.de
+     - label: "Twitter"
+       icon: "fab fa-fw fa-twitter-square"
+       url: https://twitter.com/AdaptOR2021
 
 # Reading Files
 include:
