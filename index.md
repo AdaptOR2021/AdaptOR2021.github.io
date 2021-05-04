@@ -15,7 +15,7 @@ sidebar:
 </div>
 
 ### <a id="News" class="uncolored_link">News </a>
-* May 03rd, 2021 - AdaptOR was featured as challenge of the month on <a href="https://https://www.rsipvision.com/ComputerVisionNews-2021May/20/">Computer Vision News</a>!  
+* May 03rd, 2021 - AdaptOR is featured as challenge of the month on <a href="https://www.rsipvision.com/ComputerVisionNews-2021May/20/">Computer Vision News</a>!  
 * April 27th, 2021 - It's now official: The AdaptOR Challenge will be hosted by the <a href="https://dgm4miccai.github.io/">DGM4MICCAI Workshop</a>.  
 * April 09th, 2021 - To jump-start our participants' work, <a href="https://www.synapse.org/#!Synapse:syn25470804"> helper functions </a> in python can be found on the Synapse platform.  
 * April 01st, 2021 - Training phase starts: Datasets are now available and teams can register on the <a href="https://www.synapse.org/#!Synapse:syn25314439">Synapse platform</a>!
