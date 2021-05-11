@@ -15,6 +15,7 @@ sidebar:
 </div>
 
 ### <a id="News" class="uncolored_link">News </a>
+* May 11th, 2021 - We are happy to announce that [Challenge Awards](#Prizes) will be provided for the three top performing teams. We thank [Fehling Instruments GmbH & Co. KG](https://www.fehling-instruments.de/) for their support!
 * May 03rd, 2021 - AdaptOR is featured as challenge of the month on <a href="https://www.rsipvision.com/ComputerVisionNews-2021May/20/">Computer Vision News</a>!  
 * April 27th, 2021 - It's now official: The AdaptOR Challenge will be hosted by the <a href="https://dgm4miccai.github.io/">DGM4MICCAI Workshop</a>.  
 * April 09th, 2021 - To jump-start our participants' work, <a href="https://www.synapse.org/#!Synapse:syn25470804"> helper functions </a> in python can be found on the Synapse platform.  
@@ -70,7 +71,8 @@ Preprint: <a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
 - Paticipating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.
 
 ### <a id="Prizes" class="uncolored_link">Prizes</a>
-Certificates will be provided for the top 3 performing teams. We are in the process of seeking sponsorship of the winner(s) of the challenge from industry partners. (TBA)
+The three top performing teams will receive certificates and prizes of value 500€, 300€ and 200€. The awards are generously sponsored by [Fehling Instruments GmbH & Co. KG](https://www.fehling-instruments.de).
+<div class="centered" ><a href="https://www.fehling-instruments.de"><img style="width:15vw" src="/assets/images/FI-KG_logo.jpg" srcset="/assets/images/FI-KG_logo.jpg 3779w, /assets/images/FI-KG_logo-medium.jpg 2494w, /assets/images/FI-KG_logo-small.jpg 1247w, /assets/images/FI-KG_logo-mini.jpg 378w" sizes="50vw"></a></div>
 
 ### <a id="Potential_Future_Plans" class="uncolored_link">Potential Future Plans</a>
 Our envisioned goal is to extend the dataset with additional cases and potentially establish a recurring AdaptOR event to support progress in this application field.  
