@@ -7,13 +7,37 @@ summary: "Information about the submission and the evaluation"
 
 ## <a id="Submission" class="uncolored_link">Submission</a>
 
-For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit the following:
+For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit a **Docker container on the Synapse platform** with the following requirements:
 
-- **Docker container on the Synapse platform**. More information and links will be provided soon.
+  - (Mandatory:) For each novel input data of size 512x288 from the Intraop-Domain, the model should be able to generate an output **JSON-File**. Each JSON-File should contain a JSON-Object with ```folderName```, ```subfolderName``` and ```imageFileName``` string attributes as well as a ```points``` array. The ```points``` array should contain objects with ```x``` and ```y``` number attributes representing the pixel coordinates of each landmark. A JSON-File-Output-Example could look as follows:
+  ```
+  {
+        "folderName": "aicm1",
+        "subfolderName": "VID000_0",
+        "imageFileName": "000000.png",
+        "points": [
+          {
+            "x": 1,
+            "y": 1
+          },
+          {
+            "x": 2,
+            "y": 2
+          }
+        ]
+  }
+  ```
+  The docker container should detect landmarks in **all images** in the hosts input directory via the command:
+  ```
+  $ docker run --gpus all -v "<absolute_host_input_directory>:/input" -v "<absolute_host_output_directory>:/output" adaptor_challenge landmark_detection
+  ```
 
-  - (Mandatory:) When running a pre-defined command on novel input data of size 512x288 from the Intraop-Domain, the model should output a **JSON file**, which should include the input file name and a list of the x- and y-coordinates of the detected landmarks.
+  - (Optional:) For each novel input data of size 512x288, the model should be able to output an image which was **transformed** into the Intraop-Domain and vice versa. These results do not play a role in the final rankings, but should provide insights on the quality of image-to-image transformation. Example images will be shown during the workshop event and in the joint publication. Depending on the number of submissions, an additional user-study with domain experts might be conducted at a later stage. The docker container should transform **all images** in the hosts input directory via the command:
+  ```
+  $ docker run --gpus all -v "<absolute_host_input_directory>:/input" -v "<absolute_host_output_directory>:/output" adaptor_challenge domain_transformation
+  ```
 
-  - (Optional:) When running a pre-defined command on a Sim-Domain image, the model should output an image, which was **transformed** into the Intraop-Domain and vice versa. These results do not play a role in the final rankings, but should provide insights on the quality of image-to-image transformation. Example images will be shown during the workshop event and in the joint publication. Depending on the number of submissions, an additional user-study with domain experts might be conducted at a later stage.
+**Please refer to the [AdaptOR Submission Tutorial](https://www.synapse.org/#!Synapse:syn25314439/wiki/610471) and the [AdaptOR  Docker Submission Example](https://github.com/Cardio-AI/adaptor_docker_example) for more detailed information.**
 
 Teams are encouraged to provide their code open source and to add the URL in the LNCS paper.  
 Participants agree that the challenge organizers are allowed to use their submitted docker containers to run further meta-analysis.
@@ -39,7 +63,7 @@ A landmark is counted as true positive, if it lies within a radius of 6 pixels a
 
 #### <a id="Ranking" class="uncolored_link">Ranking</a>
 
-Precision and Recall are computed over all landmarks in the test sets. It is not differentiated whether the prediction is particulary well for certain frames/patients/simulations and worse for others.  
+Precision and Recall are computed over all landmarks in the test sets. It is not differentiated whether the prediction is particularly well for certain frames/patients/simulations and worse for others.  
 The traditional F-score or **balanced F-score** (F1 score) presents the harmonic mean of precision and recall and will be used to determine the ranking (the higher the better).
 We exclude false negative rate (FNR) in the ranking, since it is related to TPR by TPR = 1-FNR. In the case where all metrics are tied, we will accept to have multiple teams with the same ranking.
 
