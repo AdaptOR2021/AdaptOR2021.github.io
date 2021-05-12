@@ -71,7 +71,7 @@ Preprint: <a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
 - Paticipating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.
 
 ### <a id="Prizes" class="uncolored_link">Prizes</a>
-The three top performing teams will receive certificates and prizes of value 500€, 300€ and 200€. The awards are generously sponsored by [Fehling Instruments GmbH & Co. KG](https://www.fehling-instruments.de).
+The three top performing teams will receive certificates and prize money of 500€, 300€ and 200€ for the first, second and third place respectively. The awards are generously sponsored by [Fehling Instruments GmbH & Co. KG](https://www.fehling-instruments.de).
 <div class="centered" ><a href="https://www.fehling-instruments.de"><img style="width:15vw" src="/assets/images/FI-KG_logo.jpg" srcset="/assets/images/FI-KG_logo.jpg 3779w, /assets/images/FI-KG_logo-medium.jpg 2494w, /assets/images/FI-KG_logo-small.jpg 1247w, /assets/images/FI-KG_logo-mini.jpg 378w" sizes="50vw"></a></div>
 
 ### <a id="Potential_Future_Plans" class="uncolored_link">Potential Future Plans</a>
