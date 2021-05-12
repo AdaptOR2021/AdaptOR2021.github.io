@@ -9,7 +9,7 @@ summary: "Information about the submission and the evaluation"
 
 For the purpose of result verification and to encourage reproducibility and transparency, all entries must submit a **Docker container on the Synapse platform** with the following requirements:
 
-  - (Mandatory:) For each novel input data of size 512x288 from the Intraop-Domain, the model should be able to generate an output **JSON-File**. Each JSON-File should contain a JSON-Object with ```folderName```, ```subfolderName``` and ```imageFileName``` string attributes as well as a ```points``` array. The ```points``` array should contain objects with ```x``` and ```y``` number attributes representing the pixel coordinates of each landmark. A JSON-File-Output-Example could look as follows:
+  - (Mandatory:) For each new input image of size 512x288 from the Intraop-Domain, the model should be able to generate an output **JSON-File**. Each JSON-File should contain a JSON-Object with ```folderName```, ```subfolderName``` and ```imageFileName``` string attributes as well as a ```points``` array. The ```points``` array should contain objects with ```x``` and ```y``` number attributes representing the pixel coordinates of each landmark. A JSON-File-Output-Example could look as follows:
   ```
   {
         "folderName": "aicm1",
@@ -32,7 +32,7 @@ For the purpose of result verification and to encourage reproducibility and tran
   $ docker run --gpus all -v "<absolute_host_input_directory>:/input" -v "<absolute_host_output_directory>:/output" adaptor_challenge landmark_detection
   ```
 
-  - (Optional:) For each novel input data of size 512x288, the model should be able to output an image which was **transformed** into the Intraop-Domain and vice versa. These results do not play a role in the final rankings, but should provide insights on the quality of image-to-image transformation. Example images will be shown during the workshop event and in the joint publication. Depending on the number of submissions, an additional user-study with domain experts might be conducted at a later stage. The docker container should transform **all images** in the hosts input directory via the command:
+  - (Optional:) For each new input image of size 512x288, the model should be able to output an image which was **transformed** into the Intraop-Domain and vice versa. These results do not play a role in the final rankings, but should provide insights on the quality of image-to-image transformation. Example images will be shown during the workshop event and in the joint publication. Depending on the number of submissions, an additional user-study with domain experts might be conducted at a later stage. The docker container should transform **all images** in the hosts input directory via the command:
   ```
   $ docker run --gpus all -v "<absolute_host_input_directory>:/input" -v "<absolute_host_output_directory>:/output" adaptor_challenge domain_transformation
   ```
