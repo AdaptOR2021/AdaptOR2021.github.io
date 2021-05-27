@@ -15,7 +15,7 @@ sidebar:
 </div>
 
 ### <a id="News" class="uncolored_link">News </a>
-* May 27th, 2021 - Find out how we will evaluate the output of submissions with our evaluation script on the [synapse platform](https://www.synapse.org/#!Synapse:syn25806839) and in the [Docker Example GitHub Repo](https://github.com/Cardio-AI/adaptor_docker_example/blob/main/evaluation.py)!
+* May 27th, 2021 - Find out how we will evaluate the output of submissions with our evaluation script on the [Synapse platform](https://www.synapse.org/#!Synapse:syn25806839) and in the [Docker Example GitHub Repo](https://github.com/Cardio-AI/adaptor_docker_example/blob/main/evaluation.py)!
 * May 12th, 2021 - We have now made more information about the [Submission Details](https://adaptor2021.github.io/submissiondetails/) available. Check out the [Submission Tutorial](https://www.synapse.org/#!Synapse:syn25314439/wiki/610471) and our [Docker Example](https://github.com/Cardio-AI/adaptor_docker_example)!
 * May 11th, 2021 - We are happy to announce that [Challenge Awards](#Prizes) will be provided for the three top performing teams. We thank [Fehling Instruments GmbH & Co. KG](https://www.fehling-instruments.de/) for their support!
 * May 03rd, 2021 - AdaptOR is featured as challenge of the month on <a href="https://www.rsipvision.com/ComputerVisionNews-2021May/20/">Computer Vision News</a>!  
