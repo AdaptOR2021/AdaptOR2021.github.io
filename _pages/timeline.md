@@ -24,7 +24,7 @@ summary: "Information about the schedule and publication"
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>06/06/2021</dt>
+                <dt><del>30/05/2021</del><br>06/06/2021</dt>
                 <dd>last possible<br>
 				registration date</dd>
             </div>
