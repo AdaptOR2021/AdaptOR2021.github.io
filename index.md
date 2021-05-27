@@ -15,6 +15,7 @@ sidebar:
 </div>
 
 ### <a id="News" class="uncolored_link">News </a>
+* May 27th, 2021 - <span style="color: #2f5697;">The last possible registration date is now 06/06/2021. Don't miss your chance and [register now](https://adaptor2021.github.io/registration/)!</span>
 * May 27th, 2021 - Find out how we will evaluate the output of submissions with our evaluation script on the [Synapse platform](https://www.synapse.org/#!Synapse:syn25806839) and in the [Docker Example GitHub Repo](https://github.com/Cardio-AI/adaptor_docker_example/blob/main/evaluation.py)!
 * May 12th, 2021 - We have now made more information about the [Submission Details](https://adaptor2021.github.io/submissiondetails/) available. Check out the [Submission Tutorial](https://www.synapse.org/#!Synapse:syn25314439/wiki/610471) and our [Docker Example](https://github.com/Cardio-AI/adaptor_docker_example)!
 * May 11th, 2021 - We are happy to announce that [Challenge Awards](#Prizes) will be provided for the three top performing teams. We thank [Fehling Instruments GmbH & Co. KG](https://www.fehling-instruments.de/) for their support!
@@ -70,7 +71,7 @@ Preprint: <a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
 - No additional training data and no models pre-trained on other datasets are allowed.
 - Each team is only allowed to register once and all submissions must be done from the same account.
 - A single participant is only allowed to be part of one team.
-- Paticipating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.
+- Participating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.
 
 ### <a id="Prizes" class="uncolored_link">Prizes</a>
 The three top performing teams will receive certificates and prize money of 500€, 300€ and 200€ for the first, second and third place respectively. The awards are generously sponsored by [Fehling Instruments GmbH & Co. KG](https://www.fehling-instruments.de).
