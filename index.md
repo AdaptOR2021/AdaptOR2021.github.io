@@ -16,8 +16,11 @@ sidebar:
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
-<li> June 01st, 2021 - The Platform Testing Phase has started. <a href="https://adaptor2021.github.io/submissiondetails/">Submit</a> your models to test the submission process to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Platform Test (9614808)</a> as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>. The results of your test submissions will be visible <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/609452">here</a>.</li>
+<li>
+June 22nd, 2021 - Don't forget to choose the AdaptOR Challenge option under "Subject Areas", while creating a submission in the <a href="https://cmt3.research.microsoft.com/DGM4MICCAI2021">CMT platform</a> on June 25th. Read more about what to submit <a href="https://adaptor2021.github.io/timeline/#Publication">here</a> and use the opportunity of the Platform Testing Phase while it is still possible.
+</li>
 <div class="smaller-text">
+<li> June 01st, 2021 - The Platform Testing Phase has started. <a href="https://adaptor2021.github.io/submissiondetails/">Submit</a> your models to test the submission process to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Platform Test (9614808)</a> as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>. The results of your test submissions will be visible <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/609452">here</a>.</li>
 <li> May 27th, 2021 - <span style="color: #2f5697;">The last possible registration date is now 06/06/2021. Don't miss your chance and <a href="https://adaptor2021.github.io/registration/">register now</a>!</span></li>
 <li> May 27th, 2021 - Find out how we will evaluate the output of submissions with our evaluation script on the <a href="https://www.synapse.org/#!Synapse:syn25806839">Synapse platform</a> and in the <a href="https://github.com/Cardio-AI/adaptor_docker_example/blob/main/evaluation.py">Docker Example GitHub Repo</a>!</li>
 <li> May 12th, 2021 - We have now made more information about the <a href="https://adaptor2021.github.io/submissiondetails/">Submission Details</a> available. Check out the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a> and our <a href="https://github.com/Cardio-AI/adaptor_docker_example">Docker Example</a>!</li>
