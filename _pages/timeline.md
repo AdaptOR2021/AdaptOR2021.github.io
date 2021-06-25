@@ -31,19 +31,21 @@ summary: "Information about the schedule and publication"
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>15/06/2021</dt>
+                <dt>02/07/2021</dt>
                 <dd>end platform testing</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>25/06/2021</dt>
+                <dt><del>25/06/2021</del><br>
+                <span style="color: red;">02/07/2021</span>
+                </dt>
                 <dd>LNCS paper submission date</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>15/06/2021 - 07/07/2021</dt>
+                <dt>15/06/2021 - 0/07/2021</dt>
                 <dd>submission of docker container</dd>
             </div>
         </div>
