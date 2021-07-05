@@ -45,13 +45,13 @@ summary: "Information about the schedule and publication"
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>15/06/2021 - 0/07/2021</dt>
+                <dt>15/06/2021 - 07/07/2021</dt>
                 <dd>submission of docker container</dd>
             </div>
         </div>
         <div class="cell">
             <div class="cell-content">
-                <dt>1/10/2021<br></dt>
+                <dt>01/10/2021<br></dt>
                 <dd>
 				release of the results<br>
                 at the <a href="https://dgm4miccai.github.io">DGM4MICCAI workshop</a>
