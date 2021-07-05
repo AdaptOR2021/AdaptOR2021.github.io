@@ -17,9 +17,12 @@ sidebar:
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <li>
-<span style="color: red;"><b>June 25th, 2021 - Deadline extended to July 2nd 2021, 11:59 PM Pacific Time</b></span> 
+<span style="color: red;"><b>July 05th, 2021 - The final Docker Container Submission must be submitted to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Submission (9614850)</a> by July 07th 2021, as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>.</b></span>
 </li>
 <div class="smaller-text">
+<li>
+June 25th, 2021 - Deadline extended to July 2nd 2021, 11:59 PM Pacific Time
+</li>
 <li>
 June 22nd, 2021 - Don't forget to choose the AdaptOR Challenge option under "Subject Areas", while creating a submission in the <a href="https://cmt3.research.microsoft.com/DGM4MICCAI2021">CMT platform</a> on June 25th. Read more about what to submit <a href="https://adaptor2021.github.io/timeline/#Publication">here</a> and use the opportunity of the Platform Testing Phase while it is still possible.
 </li>
