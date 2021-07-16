@@ -17,15 +17,13 @@ sidebar:
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <li>
-<span style="color: red;"><b>July 05th, 2021 - The final Docker Container Submission must be submitted to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Submission (9614850)</a> by July 07th 2021, as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>.</b></span>
+July 16th, 2021 - Please cite the work related to the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a> and keep in touch!
 </li>
 <div class="smaller-text">
+<li> July 05th, 2021 - The final Docker Container Submission must be submitted to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Submission (9614850)</a> by July 07th 2021, as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>.</li>
+<li> June 25th, 2021 - Deadline extended to July 2nd 2021, 11:59 PM Pacific Time </li>
 <li>
-June 25th, 2021 - Deadline extended to July 2nd 2021, 11:59 PM Pacific Time
-</li>
-<li>
-June 22nd, 2021 - Don't forget to choose the AdaptOR Challenge option under "Subject Areas", while creating a submission in the <a href="https://cmt3.research.microsoft.com/DGM4MICCAI2021">CMT platform</a> on June 25th. Read more about what to submit <a href="https://adaptor2021.github.io/timeline/#Publication">here</a> and use the opportunity of the Platform Testing Phase while it is still possible.
-</li>
+June 22nd, 2021 - Don't forget to choose the AdaptOR Challenge option under "Subject Areas", while creating a submission in the <a href="https://cmt3.research.microsoft.com/DGM4MICCAI2021">CMT platform</a> on June 25th. Read more about what to submit <a href="https://adaptor2021.github.io/timeline/#Publication">here</a> and use the opportunity of the Platform Testing Phase while it is still possible.</li>
 <li> June 01st, 2021 - The Platform Testing Phase has started. <a href="https://adaptor2021.github.io/submissiondetails/">Submit</a> your models to test the submission process to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Platform Test (9614808)</a> as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>. The results of your test submissions will be visible <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/609452">here</a>.</li>
 <li> May 27th, 2021 - <span style="color: #2f5697;">The last possible registration date is now 06/06/2021. Don't miss your chance and <a href="https://adaptor2021.github.io/registration/">register now</a>!</span></li>
 <li> May 27th, 2021 - Find out how we will evaluate the output of submissions with our evaluation script on the <a href="https://www.synapse.org/#!Synapse:syn25806839">Synapse platform</a> and in the <a href="https://github.com/Cardio-AI/adaptor_docker_example/blob/main/evaluation.py">Docker Example GitHub Repo</a>!</li>
@@ -76,7 +74,7 @@ Domain Adaptation, Generative Models, Landmark Detection, Deep Learning, Machine
 
 [<a id="3">3</a>] Engelhardt, S., Sharan, L., Karck, M., De Simone, R., Wolf, I. (2019), Cross-Domain Conditional Generative Adversarial Networks for Stereoscopic Hyperrealism in Surgical Training. In: Shen D. et al. (eds) Medical Image Computing and Computer Assisted Intervention – MICCAI 2019. MICCAI 2019. Lecture Notes in Computer Science, vol 11768. Springer, Cham, pp 155-163, doi: <a href="https://doi.org/10.1007/978-3-030-32254-0_18">https://doi.org/10.1007/978-3-030-32254-0_18</a> Preprint: <a href="https://arxiv.org/abs/1906.10011">1906.10011</a> <br><br>
 
-[<a id="4">4</a>] Stern, A., Sharan, L., Romano, G.,  Koehler, S., Karck, M.,  De Simone, R.,  Wolf, I., Engelhardt, S. (2021), Heatmap-based 2D Landmark Detection with a Varying Number of Landmarks. In: Palm C., Deserno T.M., Handels H., Maier A., Maier-Hein K., Tolxdorff T. (eds) Bildverarbeitung für die Medizin 2021. Informatik aktuell. Springer Vieweg, Wiesbaden. <a href="https://doi.org/10.1007/978-3-658-33198-6_7">https://doi.org/10.1007/978-3-658-33198-6_7</a>
+[<a id="4">4</a>] Stern, A., Sharan, L., Romano, G., Koehler, S., Karck, M., De Simone, R., Wolf, I., Engelhardt, S. (2021), Heatmap-based 2D Landmark Detection with a Varying Number of Landmarks. In: Palm C., Deserno T.M., Handels H., Maier A., Maier-Hein K., Tolxdorff T. (eds) Bildverarbeitung für die Medizin 2021. Informatik aktuell. Springer Vieweg, Wiesbaden. <a href="https://doi.org/10.1007/978-3-658-33198-6_7">https://doi.org/10.1007/978-3-658-33198-6_7</a>
 Preprint: <a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
 </div>
 

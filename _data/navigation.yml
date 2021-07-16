@@ -1,4 +1,6 @@
 main:
+  - title: "Publications"
+    url: /publications/
   - title: "Dataset Info"
     url: /datasetinfo/
   - title: "Submission Details"
