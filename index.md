@@ -17,7 +17,7 @@ sidebar:
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <li>
-July 16th, 2021 - Please cite the work related to the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a> and keep in touch!
+July 16th, 2021 - Find the recent work from the organisers, that proposes methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>. Stay tuned for the challenge publication, coming soon.
 </li>
 <div class="smaller-text">
 <li> July 05th, 2021 - The final Docker Container Submission must be submitted to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Submission (9614850)</a> by July 07th 2021, as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>.</li>
