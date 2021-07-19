@@ -5,6 +5,8 @@ layout: home
 summary: "Publications"
 ---
 
+<h2 class="divider">Papers about the same task by the organisers:</h2>
+
 <h3><a id="Mutually_improved_endoscopic_image_synthesis_and_landmark_detection_in_unpaired_image-to-image_translation" class="uncolored_link">Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation</a></h3>
 <i>14 Jul 2021</i>  
 Lalith Sharan, Gabriele Romano, Sven Koehler, Halvar Kelm, Matthias Karck, Raffaele De Simone, Sandy Engelhardt
