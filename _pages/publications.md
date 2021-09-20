@@ -5,7 +5,7 @@ layout: home
 summary: "Publications"
 ---
 
-<h2 class="divider">Methodological development on the challenge dataset from the organisers:</h2>
+<h2 class="divider">Methodological development on the challenge dataset from the organisers (we did not participate in the challenge):</h2>
 
 <table style="border: 1px solid #d3d3d3; border-radius: 5px;">
       <tr>
@@ -59,7 +59,17 @@ summary: "Publications"
                         detection network
                         itself. The data is released within the scope of the AdaptOR MICCAI Challenge 2021 at <a
                               href="https://adaptor2021.github.io/">https://adaptor2021.github.io/</a>, and code at <a
-                              href="https://github.com/Cardio-AI/detcyclegan_pytorch">https://github.com/Cardio-AI/detcyclegan_pytorch</a>.
+                              href="https://github.com/Cardio-AI/detcyclegan_pytorch">https://github.com/Cardio-AI/detcyclegan_pytorch</a>. DOI:	10.1109/JBHI.2021.3099858. The link to the IEEE Early access article can be found here: <a
+                                    href="https://ieeexplore.ieee.org/document/9496194">https://ieeexplore.ieee.org/document/9496194</a> , and the link to the preprint can be found here:<a
+                                          href="https://arxiv.org/abs/2107.06941">https://arxiv.org/abs/2107.06941</a>
+
+
+Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation
+https://ieeexplore.ieee.org
+
+Mutually improved endoscopic image synthesis and landmark...
+https://arxiv.org
+
                   </div>
             </td>
       </tr>
@@ -72,13 +82,15 @@ summary: "Publications"
 
 
 ```
-@misc{sharan2021mutually,
-      title={Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation},
-      author={Lalith Sharan and Gabriele Romano and Sven Koehler and Halvar Kelm and Matthias Karck and Raffaele De Simone and Sandy Engelhardt},
-      year={2021},
-      eprint={2107.06941},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@ARTICLE{9496194,
+  author={Sharan, Lalith and Romano, Gabriele and Koehler, Sven and Kelm, Halvar and Karck, Matthias and De Simone, Raffaele and Engelhardt, Sandy},
+  journal={IEEE Journal of Biomedical and Health Informatics},
+  title={Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation},
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/JBHI.2021.3099858}}
 }
 ```
 </div>
