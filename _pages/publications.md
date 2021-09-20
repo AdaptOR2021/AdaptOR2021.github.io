@@ -63,13 +63,6 @@ summary: "Publications"
                                     href="https://ieeexplore.ieee.org/document/9496194">https://ieeexplore.ieee.org/document/9496194</a> , and the link to the preprint can be found here:<a
                                           href="https://arxiv.org/abs/2107.06941">https://arxiv.org/abs/2107.06941</a>
 
-
-Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation
-https://ieeexplore.ieee.org
-
-Mutually improved endoscopic image synthesis and landmark...
-https://arxiv.org
-
                   </div>
             </td>
       </tr>
