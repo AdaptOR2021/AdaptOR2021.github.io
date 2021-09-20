@@ -17,6 +17,9 @@ sidebar:
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <li>
+September 20th, 2021 - The final results are computed and will be anounced at the DGM4Miccai Workshop on October 1st, 2021. The program can be seen <a href="https://dgm4miccai.github.io/">here</a>.
+</li>
+<li>
 July 16th, 2021 - Find the recent work from the organisers, that proposes methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>. Stay tuned for the challenge publication, coming soon.
 </li>
 <div class="smaller-text">
