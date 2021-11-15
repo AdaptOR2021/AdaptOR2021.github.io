@@ -174,7 +174,7 @@ summary: "Publications"
       <tr>
             <td style="vertical-align:top; border: 0px; width:70%">
                   <h1 style="margin: 0">
-                        <a id="Cross-Domain Landmarks Detection in Mitral Regurgitation"
+                        <a id="Cross-Domain Landmarks Detection in Mitral Regurgitation (1st Prize)"
                               class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_12"
                               style="text-decoration: none;">Cross-Domain Landmarks Detection in Mitral Regurgitation</a>
                   </h1><br>
@@ -211,7 +211,7 @@ summary: "Publications"
       <tr>
             <td style="vertical-align:top; border: 0px; width:70%">
                   <h1 style="margin: 0">
-                        <a id="Improved Heatmap-Based Landmark Detection"
+                        <a id="Improved Heatmap-Based Landmark Detection (2nd Prize)"
                               class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_11"
                               style="text-decoration: none;">Improved Heatmap-Based Landmark Detection</a>
                   </h1><br>
