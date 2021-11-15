@@ -174,9 +174,9 @@ summary: "Publications"
       <tr>
             <td style="vertical-align:top; border: 0px; width:70%">
                   <h1 style="margin: 0">
-                        <a id="Cross-Domain Landmarks Detection in Mitral Regurgitation (1st Prize)"
+                        <a id="Cross-Domain Landmarks Detection in Mitral Regurgitation"
                               class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_12"
-                              style="text-decoration: none;">Cross-Domain Landmarks Detection in Mitral Regurgitation</a>
+                              style="text-decoration: none;">Cross-Domain Landmarks Detection in Mitral Regurgitation (1st Prize)</a>
                   </h1><br>
                   <i>25 Sep 2021</i><br>
                   Jiacheng Wang, Haojie Wang, Ruochen Mu, Liansheng Wang <br>
@@ -211,9 +211,9 @@ summary: "Publications"
       <tr>
             <td style="vertical-align:top; border: 0px; width:70%">
                   <h1 style="margin: 0">
-                        <a id="Improved Heatmap-Based Landmark Detection (2nd Prize)"
+                        <a id="Improved Heatmap-Based Landmark Detection"
                               class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_11"
-                              style="text-decoration: none;">Improved Heatmap-Based Landmark Detection</a>
+                              style="text-decoration: none;">Improved Heatmap-Based Landmark Detection (2nd Prize)</a>
                   </h1><br>
                   <i>25 Sep 2021</i><br>
                   Huifeng Yao, Ziyu Guo, Yatao Zhang, Liansheng Wang <br>
