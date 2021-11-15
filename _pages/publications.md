@@ -5,7 +5,7 @@ layout: home
 summary: "Publications"
 ---
 
-<h2 class="divider">Methodological development on the challenge dataset from the organisers (we did not participate in the challenge):</h2>
+<h2 class="divider">Methodological developments on the challenge dataset from the organisers (we did not participate in the challenge):</h2>
 
 <table style="border: 1px solid #d3d3d3; border-radius: 5px;">
       <tr>
@@ -84,6 +84,83 @@ summary: "Publications"
   number={},
   pages={1-1},
   doi={10.1109/JBHI.2021.3099858}}
+}
+```
+</div>
+            </td>
+      </tr>
+      <tr>
+            <td style=" border: 0px; width:30%">
+                  <a href="https://link.springer.com/article/10.1007/s11548-021-02523-w">
+                        <img src="/assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy.png"
+                              srcset="/assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy.png 1224w, /assets/images/Mutually_improved_endoscopic_image_synthesisand_landmark_detectionin_unpaired_image-to-image_translation-cover-medium.png 808w, /assets/images/Mutually_improved_endoscopic_image_synthesisand_landmark_detectionin_unpaired_image-to-image_translation-cover-small.png 404w, /assets/images/Mutually_improved_endoscopic_image_synthesisand_landmark_detectionin_unpaired_image-to-image_translation-cover-mini.png 122w"
+                              sizes="20vw" style="border: 1px solid; border-radius: 3px;">
+                  </a>
+            </td>
+            <td style="vertical-align:top; border: 0px; width:70%">
+                  <h1 style="margin: 0">
+                        <a id="Point detection through multi-instance deep heatmap regression for sutures in endoscopy"
+                              class="uncolored_link" href="https://link.springer.com/article/10.1007/s11548-021-02523-w"
+                              style="text-decoration: none;">Point detection through multi-instance deep heatmap regression for sutures in endoscopy</a>
+                  </h1><br>
+                  <i>08 Nov 2021</i><br>
+                  Lalith Sharan, Gabriele Romano, Julian Brand, Halvar Kelm, Matthias Karck, Raffaele De Simone, Sandy
+                  Engelhardt<br>
+
+                  <h2>Abstract:</h2>
+                  <div style="font-size: 12px;">
+                    Purpose:
+                    Mitral valve repair is a complex minimally invasive surgery of the heart valve. In this context, 
+                    suture detection from endoscopic images is a highly relevant task that provides quantitative 
+                    information to analyse suturing patterns, assess prosthetic configurations and produce augmented 
+                    reality visualisations. Facial or anatomical landmark detection tasks typically contain a fixed 
+                    number of landmarks, and use regression or fixed heatmap-based approaches to localize the landmarks. 
+                    However in endoscopy, there are a varying number of sutures in every image, and the sutures may 
+                    occur at any location in the annulus, as they are not semantically unique.
+
+                    Method:
+                    In this work, we formulate the suture detection task as a multi-instance deep heatmap regression 
+                    problem, to identify entry and exit points of sutures. We extend our previous work, and 
+                    introduce the novel use of a 2D Gaussian layer followed by a differentiable 2D spatial Soft-Argmax 
+                    layer to function as a local non-maximum suppression.
+
+                    Results: 
+                    We present extensive experiments with multiple heatmap distribution functions and two variants of 
+                    the proposed model. In the intra-operative domain, Variant 1 showed a mean F1
+                    of +0.0422 over the baseline. Similarly, in the simulator domain, Variant 1 showed a mean F1 
+                    of +0.0865 over the baseline.
+                    
+                    Conclusion:
+                    The proposed model shows an improvement over the baseline in the intra-operative and the simulator 
+                    domains. The data is made publicly available within the scope of the MICCAI AdaptOR2021 Challenge 
+                    <a href="https://adaptor2021.github.io/">https://adaptor2021.github.io/</a>, and the code at 
+                    <a href="https://github.com/Cardio-AI/suture-detection-pytorch/">
+                    https://github.com/Cardio-AI/suture-detection-pytorch/</a>.
+
+                    DOI:10.1007/s11548-021-02523-w. The link to the open access article can be found here: 
+                    <a href="https://link.springer.com/article/10.1007%2Fs11548-021-02523-w">https://link.springer.com/article/10.1007%2Fs11548-021-02523-w</a> 
+
+                  </div>
+            </td>
+      </tr>
+      <tr>
+            <td colspan="2">
+                  <h2 style="margin: 0">
+                        Bibtex citation:
+                  </h2>  
+<div markdown="1">
+
+
+```
+@ARTICLE{9496194,
+  author={Sharan, Lalith and Romano, Gabriele and Brand, Julian and Kelm, Halvar and Karck, Matthias and De Simone, Raffaele and Engelhardt, Sandy},
+  journal={Int J Computer Assisted Radiology and Surgery},
+  title={Point detection through multi-instance deep heatmap regression for sutures in endoscopy},
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1007/s11548-021-02523-w}}
 }
 ```
 </div>
