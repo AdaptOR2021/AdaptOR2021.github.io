@@ -75,7 +75,7 @@ summary: "Publications"
 
 
 ```
-@ARTICLE{9496194,
+@ARTICLE{Sharan_JBHI21,
   author={Sharan, Lalith and Romano, Gabriele and Koehler, Sven and Kelm, Halvar and Karck, Matthias and De Simone, Raffaele and Engelhardt, Sandy},
   journal={IEEE Journal of Biomedical and Health Informatics},
   title={Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation},
@@ -152,7 +152,7 @@ summary: "Publications"
 
 
 ```
-@ARTICLE{9496194,
+@ARTICLE{Sharan_IJCARS21,
   author={Sharan, Lalith and Romano, Gabriele and Brand, Julian and Kelm, Halvar and Karck, Matthias and De Simone, Raffaele and Engelhardt, Sandy},
   journal={Int J Computer Assisted Radiology and Surgery},
   title={Point detection through multi-instance deep heatmap regression for sutures in endoscopy},
@@ -166,4 +166,81 @@ summary: "Publications"
 </div>
             </td>
       </tr>
+</table>
+
+<h2 class="divider">Submissions from the participants:</h2>
+
+<table style="border: 1px solid #d3d3d3; border-radius: 5px;">
+      <tr>
+            <td style="vertical-align:top; border: 0px; width:70%">
+                  <h1 style="margin: 0">
+                        <a id="Cross-Domain Landmarks Detection in Mitral Regurgitation"
+                              class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_12"
+                              style="text-decoration: none;">Cross-Domain Landmarks Detection in Mitral Regurgitation</a>
+                  </h1><br>
+                  <i>14 Jul 2021</i><br>
+                  Jiacheng Wang, Haojie Wang, Ruochen Mu, Liansheng Wang <br>
+            </td>
+      </tr>
+      <tr>
+            <td colspan="2">
+                  <h2 style="margin: 0">
+                        Bibtex citation:
+                  </h2>  
+<div markdown="1">
+
+
+```
+@ARTICLE{Wang_cross_domain,
+  author={Wang, Jiacheng and Wang, Haojie and Mu, Ruochen and Wang, Liansheng},
+  journal={DGM4MICCAI 2021, DALI 2021. Lecture Notes in Computer Science, vol 13003. },
+  title={Cross-Domain Landmarks Detection in Mitral Regurgitation},
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1007/978-3-030-88210-5_12}}
+}
+```
+</div>
+            </td>
+      </tr>
+</table>
+
+<table style="border: 1px solid #d3d3d3; border-radius: 5px;">
+      <tr>
+            <td style="vertical-align:top; border: 0px; width:70%">
+                  <h1 style="margin: 0">
+                        <a id="Improved Heatmap-Based Landmark Detection"
+                              class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_11"
+                              style="text-decoration: none;">Improved Heatmap-Based Landmark Detection</a>
+                  </h1><br>
+                  <i>14 Jul 2021</i><br>
+                  Huifeng Yao, Ziyu Guo, Yatao Zhang, Liansheng Wang <br>
+            </td>
+      </tr>
+      <tr>
+            <td colspan="2">
+                  <h2 style="margin: 0">
+                        Bibtex citation:
+                  </h2>  
+<div markdown="1">
+
+
+```
+@ARTICLE{Yao_improved_heatmap,
+  author={Yao, Huifeng and Guo, Ziyu and Zhang, Yatao and Wang, Liansheng},
+  journal={DGM4MICCAI 2021, DALI 2021. Lecture Notes in Computer Science, vol 13003},
+  title={Improved Heatmap-Based Landmark Detection},
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1007/978-3-030-88210-5_11}}
+}
+```
+</div>
+            </td>
+      </tr>
+
 </table>
