@@ -92,8 +92,8 @@ summary: "Publications"
       <tr>
             <td style=" border: 0px; width:30%">
                   <a href="https://link.springer.com/article/10.1007/s11548-021-02523-w">
-                        <img src="/assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy.png"
-                              srcset="/assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy.png 1224w, /assets/images/Mutually_improved_endoscopic_image_synthesisand_landmark_detectionin_unpaired_image-to-image_translation-cover-medium.png 808w, /assets/images/Mutually_improved_endoscopic_image_synthesisand_landmark_detectionin_unpaired_image-to-image_translation-cover-small.png 404w, /assets/images/Mutually_improved_endoscopic_image_synthesisand_landmark_detectionin_unpaired_image-to-image_translation-cover-mini.png 122w"
+                        <img src="/assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy-cover.png"
+                              srcset="/assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy-cover.png 1224w, /assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy-cover-medium.png 808w, /assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy-cover.png 1224w, /assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy-cover-medium.png 404w, /assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy-cover.png 1224w, /assets/images/Point_detection_through_multi-instance_deep_heatmap_regression_for_sutures_in_endoscopy-cover-medium.png 122w"
                               sizes="20vw" style="border: 1px solid; border-radius: 3px;">
                   </a>
             </td>
@@ -178,7 +178,7 @@ summary: "Publications"
                               class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_12"
                               style="text-decoration: none;">Cross-Domain Landmarks Detection in Mitral Regurgitation</a>
                   </h1><br>
-                  <i>14 Jul 2021</i><br>
+                  <i>25 Sep 2021</i><br>
                   Jiacheng Wang, Haojie Wang, Ruochen Mu, Liansheng Wang <br>
             </td>
       </tr>
@@ -215,7 +215,7 @@ summary: "Publications"
                               class="uncolored_link" href="https://link.springer.com/chapter/10.1007/978-3-030-88210-5_11"
                               style="text-decoration: none;">Improved Heatmap-Based Landmark Detection</a>
                   </h1><br>
-                  <i>14 Jul 2021</i><br>
+                  <i>25 Sep 2021</i><br>
                   Huifeng Yao, Ziyu Guo, Yatao Zhang, Liansheng Wang <br>
             </td>
       </tr>
