@@ -204,18 +204,6 @@ summary: "Publications"
 	title = {Cross-{Domain} {Landmarks} {Detection} in {Mitral} {Regurgitation}},
 	isbn = {978-3-030-88210-5},
 	doi = {10.1007/978-3-030-88210-5_12},
-	abstract = {Mitral regurgitation (MR) is a frequent indication for valve surgery. One of its treatments, 
-	mitral valve performed with endoscopic video recordings, is a complex minimally invasive procedure which is facing 
-	the problem of data availability and data privacy. Therefore, the simulation cases are widely used to form surgery 
-	training and planning. However, the cross-domain gap may affect the performance significantly as Deep Learning 
-	methods rely heavily on data. We propose to develop an algorithm to reduce the domain gap between simulation and 
-	intra-operative cases. The task is to learn the distance and location information of the points and predict a series 
-	of 2D landmarks’ location, the coordinates of the landmark were both marked on real and simulate dataset by the 
-	AdaptOR Challenge organizer. Our work has merged the data from both domains by using a relation heatmap generation 
-	algorithm, which can generate a relation key point heatmap based on the distance measurement of landmarks and 
-	explicitly represent the geometric relation between landmarks. The MSE loss function is used to minimize the error 
-	between the ground-truth and predicted heatmaps. We test our methods on a challenge dataset, in which the model has 
-	achieved a good F1 score of 66.19\%.},
 	language = {en},
 	booktitle = {Deep {Generative} {Models}, and {Data} {Augmentation}, {Labelling}, and {Imperfections}},
 	publisher = {Springer International Publishing},
@@ -259,18 +247,6 @@ summary: "Publications"
 	title = {Improved {Heatmap}-{Based} {Landmark} {Detection}},
 	isbn = {978-3-030-88210-5},
 	doi = {10.1007/978-3-030-88210-5_11},
-	abstract = {Mitral valve repair is a very difficult operation, often requiring experienced surgeons. The doctor will 
-	insert a prosthetic ring to aid in the restoration of heart function. The location of the prosthesis’ sutures is 
-	critical. Obtaining and studying them during the procedure is a valuable learning experience for new surgeons. 
-	This paper proposes a landmark detection network for detecting sutures in endoscopic pictures, which solves the 
-	problem of a variable number of suture points in the images. Because there are two datasets, one from the simulated 
-	domain and the other from real intraoperative data, this work uses cycleGAN to interconvert the images from the two 
-	domains to obtain a larger dataset and a better score on real intraoperative data. This paper performed the tests 
-	using a simulated dataset of 2708 photos and a real dataset of 2376 images. The mean sensitivity on the simulated 
-	dataset is about 75.64 ± 4.48\% and the precision is about 73.62 ± 9.99\%. The mean sensitivity on the real dataset 
-	is about 50.23 ± 3.76\% and the precision is about 62.76 ± 4.93\%. The data is from the AdaptOR MICCAI Challenge 
-	2021, which can be found at 
-	<a href="https://zenodo.org/record/4646979#.YO1zLUxCQ2x">https://zenodo.org/record/4646979#.YO1zLUxCQ2x</a>},
 	language = {en},
 	booktitle = {Deep {Generative} {Models}, and {Data} {Augmentation}, {Labelling}, and {Imperfections}},
 	publisher = {Springer International Publishing},
