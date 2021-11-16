@@ -75,15 +75,19 @@ summary: "Publications"
 
 
 ```
-@ARTICLE{Sharan_JBHI21,
-  author={Sharan, Lalith and Romano, Gabriele and Koehler, Sven and Kelm, Halvar and Karck, Matthias and De Simone, Raffaele and Engelhardt, Sandy},
-  journal={IEEE Journal of Biomedical and Health Informatics},
-  title={Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation},
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1109/JBHI.2021.3099858}}
+@article{sharan_mutually_2021,
+	title = {Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation},
+	issn = {2168-2208},
+	doi = {10.1109/JBHI.2021.3099858},
+	journal = {IEEE Journal of Biomedical and Health Informatics},
+	author = {Sharan, Lalith and Romano, Gabriele and Koehler, Sven and Kelm, Halvar and Karck, Matthias and De Simone, 
+	Raffaele and Engelhardt, Sandy},
+	year = {2021},
+	note = {Conference Name: IEEE Journal of Biomedical and Health Informatics},
+	keywords = {CycleGAN, Generative adversarial networks, Generative Adversarial Networks, Landmark Detection, Landmark 
+	Localization, Maintenance engineering, Mitral Valve Repair, Semantics, Surgery, Surgical Simulation, Surgical 
+	Training, Task analysis, Training, Valves},
+	pages = {1--1},
 }
 ```
 </div>
@@ -152,15 +156,18 @@ summary: "Publications"
 
 
 ```
-@ARTICLE{Sharan_IJCARS21,
-  author={Sharan, Lalith and Romano, Gabriele and Brand, Julian and Kelm, Halvar and Karck, Matthias and De Simone, Raffaele and Engelhardt, Sandy},
-  journal={Int J Computer Assisted Radiology and Surgery},
-  title={Point detection through multi-instance deep heatmap regression for sutures in endoscopy},
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1007/s11548-021-02523-w}}
+@article{sharan_point_2021,
+	title = {Point detection through multi-instance deep heatmap regression for sutures in endoscopy},
+	issn = {1861-6429},
+	url = {https://doi.org/10.1007/s11548-021-02523-w},
+	doi = {10.1007/s11548-021-02523-w},
+	language = {en},
+	urldate = {2021-11-16},
+	journal = {International Journal of Computer Assisted Radiology and Surgery},
+	author = {Sharan, Lalith and Romano, Gabriele and Brand, Julian and Kelm, Halvar and Karck, Matthias and De Simone, 
+	Raffaele and Engelhardt, Sandy},
+	month = nov,
+	year = {2021}
 }
 ```
 </div>
@@ -191,15 +198,33 @@ summary: "Publications"
 
 
 ```
-@ARTICLE{Wang_cross_domain,
-  author={Wang, Jiacheng and Wang, Haojie and Mu, Ruochen and Wang, Liansheng},
-  journal={DGM4MICCAI 2021, DALI 2021. Lecture Notes in Computer Science, vol 13003. },
-  title={Cross-Domain Landmarks Detection in Mitral Regurgitation},
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1007/978-3-030-88210-5_12}}
+@inproceedings{wang_cross-domain_2021,
+	address = {Cham},
+	series = {Lecture {Notes} in {Computer} {Science}},
+	title = {Cross-{Domain} {Landmarks} {Detection} in {Mitral} {Regurgitation}},
+	isbn = {978-3-030-88210-5},
+	doi = {10.1007/978-3-030-88210-5_12},
+	abstract = {Mitral regurgitation (MR) is a frequent indication for valve surgery. One of its treatments, 
+	mitral valve performed with endoscopic video recordings, is a complex minimally invasive procedure which is facing 
+	the problem of data availability and data privacy. Therefore, the simulation cases are widely used to form surgery 
+	training and planning. However, the cross-domain gap may affect the performance significantly as Deep Learning 
+	methods rely heavily on data. We propose to develop an algorithm to reduce the domain gap between simulation and 
+	intra-operative cases. The task is to learn the distance and location information of the points and predict a series 
+	of 2D landmarks’ location, the coordinates of the landmark were both marked on real and simulate dataset by the 
+	AdaptOR Challenge organizer. Our work has merged the data from both domains by using a relation heatmap generation 
+	algorithm, which can generate a relation key point heatmap based on the distance measurement of landmarks and 
+	explicitly represent the geometric relation between landmarks. The MSE loss function is used to minimize the error 
+	between the ground-truth and predicted heatmaps. We test our methods on a challenge dataset, in which the model has 
+	achieved a good F1 score of 66.19\%.},
+	language = {en},
+	booktitle = {Deep {Generative} {Models}, and {Data} {Augmentation}, {Labelling}, and {Imperfections}},
+	publisher = {Springer International Publishing},
+	author = {Wang, Jiacheng and Wang, Haojie and Mu, Ruochen and Wang, Liansheng},
+	editor = {Engelhardt, Sandy and Oksuz, Ilkay and Zhu, Dajiang and Yuan, Yixuan and Mukhopadhyay, Anirban and Heller, 
+	Nicholas and Huang, Sharon Xiaolei and Nguyen, Hien and Sznitman, Raphael and Xue, Yuan},
+	year = {2021},
+	keywords = {Deep learning, Landmark detection, Mitral regurgitation},
+	pages = {134--141},
 }
 ```
 </div>
@@ -228,15 +253,33 @@ summary: "Publications"
 
 
 ```
-@ARTICLE{Yao_improved_heatmap,
-  author={Yao, Huifeng and Guo, Ziyu and Zhang, Yatao and Wang, Liansheng},
-  journal={DGM4MICCAI 2021, DALI 2021. Lecture Notes in Computer Science, vol 13003},
-  title={Improved Heatmap-Based Landmark Detection},
-  year={2021},
-  volume={},
-  number={},
-  pages={1-1},
-  doi={10.1007/978-3-030-88210-5_11}}
+@inproceedings{yao_improved_2021,
+	address = {Cham},
+	series = {Lecture {Notes} in {Computer} {Science}},
+	title = {Improved {Heatmap}-{Based} {Landmark} {Detection}},
+	isbn = {978-3-030-88210-5},
+	doi = {10.1007/978-3-030-88210-5_11},
+	abstract = {Mitral valve repair is a very difficult operation, often requiring experienced surgeons. The doctor will 
+	insert a prosthetic ring to aid in the restoration of heart function. The location of the prosthesis’ sutures is 
+	critical. Obtaining and studying them during the procedure is a valuable learning experience for new surgeons. 
+	This paper proposes a landmark detection network for detecting sutures in endoscopic pictures, which solves the 
+	problem of a variable number of suture points in the images. Because there are two datasets, one from the simulated 
+	domain and the other from real intraoperative data, this work uses cycleGAN to interconvert the images from the two 
+	domains to obtain a larger dataset and a better score on real intraoperative data. This paper performed the tests 
+	using a simulated dataset of 2708 photos and a real dataset of 2376 images. The mean sensitivity on the simulated 
+	dataset is about 75.64 ± 4.48\% and the precision is about 73.62 ± 9.99\%. The mean sensitivity on the real dataset 
+	is about 50.23 ± 3.76\% and the precision is about 62.76 ± 4.93\%. The data is from the AdaptOR MICCAI Challenge 
+	2021, which can be found at 
+	<a href="https://zenodo.org/record/4646979#.YO1zLUxCQ2x">https://zenodo.org/record/4646979#.YO1zLUxCQ2x</a>},
+	language = {en},
+	booktitle = {Deep {Generative} {Models}, and {Data} {Augmentation}, {Labelling}, and {Imperfections}},
+	publisher = {Springer International Publishing},
+	author = {Yao, Huifeng and Guo, Ziyu and Zhang, Yatao and Li, Xiaomeng},
+	editor = {Engelhardt, Sandy and Oksuz, Ilkay and Zhu, Dajiang and Yuan, Yixuan and Mukhopadhyay, Anirban and Heller, 
+	Nicholas and Huang, Sharon Xiaolei and Nguyen, Hien and Sznitman, Raphael and Xue, Yuan},
+	year = {2021},
+	keywords = {CycleGAN, Heatmap, Landmark detection},
+	pages = {125--133}
 }
 ```
 </div>
