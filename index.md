@@ -15,15 +15,14 @@ sidebar:
 </div>
 
 <p style="padding: 10px; border: 2px solid red;">
-<b>+++ AdaptOR challenge re-opened December 2021 +++</b><br>
+<text-align:center><b> +++ AdaptOR challenge re-opened December 2021 +++ </b></text-align:center>
 The AdaptOR challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
 The participating teams continue to have a maximum of 3 submissions. 
-The submissions will be evaluated periodically and updated on our <a href=_pages/leaderboard.md>leaderboard</a>. 
-Please make note of our revised <a href=assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf>data access form</a>. 
+The submissions will be evaluated periodically and updated on our <a href="/leaderboard/">leaderboard</a>. 
+Please make note of our revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>. 
 The joint challenge publication has not yet been carried out. 
 This publication will be planned by the organisers, once a sufficient number of submissions 
-are received from the participants. 
-</p>
+are received from the participants. </p>
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
