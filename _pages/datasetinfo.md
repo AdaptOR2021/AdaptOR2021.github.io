@@ -5,13 +5,13 @@ layout: home
 summary: "Information about data usage, data and labeling"
 ---
 ### <a id="Data_Purposes" class="uncolored_link">Data Purposes</a>
-(1) By **registering** in the challenge, the participants agree (1) to cite the following works if using the data for a
+(1) By **registering** in the challenge, the participants agree to cite the following works if using the data for a
 publication:
 * Sharan, L., Romano, G., Koehler, S., Kelm, H., Karck, M., De Simone, R., & Engelhardt, S. (2021). Mutually improved endoscopic image synthesis and landmark detection in unpaired image-to-image translation. IEEE Journal of Biomedical and Health Informatics, 1–1. doi:10.1109/JBHI.2021.3099858
 
 * Sharan, L., Romano, G., Brand, J., Kelm, H., Karck, M., De Simone, R., & Engelhardt, S. (2021). Point detection through multi-instance deep heatmap regression for sutures in endoscopy. International Journal of Computer Assisted Radiology and Surgery. doi:10.1007/ s11548-021-02523-w
 
-(2) The **embargo** period of the challenge has concluded, and the AdaptOR challenge is continued as an open challenge that further invites submissions that are subject to continuous evaluation. In making a submission to the AdaptOR challenge, the participants agree to participate in a joint publication that will be planned by the organisers, once sufficient submissions are received.
+(2) The **embargo** period of the challenge has concluded, and the AdaptOR challenge is re-opened to further submissions that are subject to continuous evaluation. In making a submission to the AdaptOR challenge, the participants agree to participate in a joint publication that will be planned by the organisers, once sufficient submissions are received.
 
 ### <a id="License" class="uncolored_link">License</a>
 The Data is released under a Creative Commons Attribution- NonCommercial-ShareAlike (**CC BY- NC-SA**) license, which means that it will be publicly available for non-commercial usage.

@@ -14,33 +14,26 @@ sidebar:
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
-<div markdown="1">
-
-```
-The AdaptOR challenge will be further continued and is open to receiving submissions.
-The participants will continue to have three submissions, and the submissions will be evaluated periodically and 
-updated on our leaderboard. Please make note of our rrevised data access agreement. The joint challenge publication has 
-not yet been carried out. This publication will be planned by the organisers, once a sufficient number of submissions
+<p style="padding: 10px; border: 2px solid red;">
+<b>+++ AdaptOR challenge re-opened December 2021 +++</b><br>
+The AdaptOR challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
+The participating teams continue to have a maximum of 3 submissions. 
+The submissions will be evaluated periodically and updated on our <a href=_pages/leaderboard.md>leaderboard</a>. 
+Please make note of our revised <a href=assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf>data access form</a>. 
+The joint challenge publication has not yet been carried out. 
+This publication will be planned by the organisers, once a sufficient number of submissions 
 are received from the participants. 
-```
-
-</div>
+</p>
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
-<li>
-November 8th, 2021 - Find the recent work from the organisers, that proposes further methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>.
-</li>
-<li>
-September 25th, 2021 - Find the submissions of the participants, published in the proceedings of the DGM4Miccai Workshop, LNCS MICCAI 2021 <a href="https://adaptor2021.github.io/publications/">here</a>.
-</li>
-<li>
-September 20th, 2021 - The final results are computed and will be anounced at the DGM4Miccai Workshop on October 1st, 2021. The program can be seen <a href="https://dgm4miccai.github.io/">here</a>.
-</li>
-<li>
-July 16th, 2021 - Find the recent work from the organisers, that proposes methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>. Stay tuned for the challenge publication, coming soon.
-</li>
 <div class="smaller-text">
+<li> December 6th, 2021 - The AdaptOR challenge is re-opened and is now accepting further submissions. Please take note of the revised <a href=assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf>data access form</a>.
+The results of the evaluation will be periodically updated on our <a href=_pages/leaderboard.md>leaderboard</a>.</li>
+<li> November 8th, 2021 - Find the recent work from the organisers, that proposes further methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
+<li> September 25th, 2021 - Find the submissions of the participants, published in the proceedings of the DGM4Miccai Workshop, LNCS MICCAI 2021 <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
+<li> September 20th, 2021 - The final results are computed and will be announced at the DGM4Miccai Workshop on October 1st, 2021. The program can be seen <a href="https://dgm4miccai.github.io/">here</a>.</li>
+<li> July 16th, 2021 - Find the recent work from the organisers, that proposes methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>. Stay tuned for the challenge publication, coming soon.</li>
 <li> July 05th, 2021 - The final Docker Container Submission must be submitted to the Evaluation Queue <a href="https://www.synapse.org/#!Synapse:syn25314439/challenge/">AdaptOR Challenge 2021 (MICCAI) Submission (9614850)</a> by July 07th 2021, as explained in the <a href="https://www.synapse.org/#!Synapse:syn25314439/wiki/610471">Submission Tutorial</a>.</li>
 <li> June 25th, 2021 - Deadline extended to July 2nd 2021, 11:59 PM Pacific Time </li>
 <li>
@@ -104,7 +97,8 @@ Preprint: <a href="https://arxiv.org/abs/2101.02737">2101.02737</a>
 - No additional training data and no models pre-trained on other datasets are allowed.
 - Each team is only allowed to register once and all submissions must be done from the same account.
 - A single participant is only allowed to be part of one team.
-- Participating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.
+- The participants agree to participate in a challenge publication that will be planned by the organisers once a sufficient number of submissions are received.<br>
+<span style="color:#B6B6B4">Participating teams must submit a LNCS paper with comprehensive descriptions of their methods via CMT one week after docker container submission deadline. Failure of submitting the paper will render the submission invalid.</span>
 
 ### <a id="Prizes" class="uncolored_link">Prizes</a>
 The 1st Prize for the AdaptOR challenge was bagged by team <b>LS_Group</b> comprising of Jiacheng Wang, Haojie Wang, Ruochen Mu, and Liansheng Wang from Xiamen University, China. 

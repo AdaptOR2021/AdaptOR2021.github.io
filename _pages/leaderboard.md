@@ -5,6 +5,8 @@ layout: home
 summary: "Brief information overview"
 ---
 
+**Last update:** 06 December, 2021
+
 <div markdown="1">
 
 |  Team |  Institute |  F<sub>1</sub> Score |
