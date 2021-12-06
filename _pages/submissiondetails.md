@@ -43,15 +43,16 @@ For the purpose of result verification and to encourage reproducibility and tran
 Teams are encouraged to provide their code open source and to add the URL in the LNCS paper.  
 Participants agree that the challenge organizers are allowed to use their submitted docker containers to run further meta-analysis.
 
-The challenge will be split into **three phases**: Training phase, Platform testing phase, Testing phase.
+Each participating team is allowed to make a total of 3 submissions to the system. The evaluation after each submission will be communicated to the team. 
+The best results out of the submissions will be considered as the final result, and the same will be updated on the leaderboard. The docker will run on a **24 Gb RAM Nvidia Titan RTX**. Please make sure the specified batch size in your code does not exceed the 24 Gb limit
 
-During **training phase**, the participating teams will be able to independently validate their results using crossvalidation on the training data.
+<span style="color:gray">The challenge will be split into **three phases**: Training phase, Platform testing phase, Testing phase</span>.
 
-During the platform **testing phase**, they are allowed to use the official submission platform to resolve potential technical issues. We will use dummy datasets for sanity checks, e.g. to ensure the submission is in the correct format.
+<span style="color:gray">During **training phase**, the participating teams will be able to independently validate their results using crossvalidation on the training data </span>.
 
-During the **test phase**, participants are allowed to make in total three submissions. The best result out of these three is selected as final result. The docker will run on a **24 Gb RAM Nvidia Titan RTX**. Make sure the specified batch size in your code does not exceed the 24 Gb limit.
+<span style="color:gray">During the platform **testing phase**, they are allowed to use the official submission platform to resolve potential technical issues. We will use dummy datasets for sanity checks, e.g. to ensure the submission is in the correct format</span>.
 
-<img src="/assets/images/submission_details.png" srcset="/assets/images/submission_details.png 1836w, /assets/images/submission_details-medium.png 1212w, /assets/images/submission_details-small.png 606w, /assets/images/submission_details-mini.png 184w" sizes="50vw">
+<span style="color:gray">During the **test phase**, participants are allowed to make in total three submissions. The best result out of these three is selected as final result. The docker will run on a **24 Gb RAM Nvidia Titan RTX**. Make sure the specified batch size in your code does not exceed the 24 Gb limit</span>.
 
 ### <a id="Evaluation" class="uncolored_link">Evaluation</a>
 
@@ -70,5 +71,7 @@ We exclude false negative rate (FNR) in the ranking, since it is related to TPR 
 
 #### <a id="Result_announcement" class="uncolored_link">Result announcement</a>
 
-All the results will be made available publicly. The announcement of the winner will be made at the workshop and the website will be updated accordingly.
-All teams should participate in the workshop and will be invited to present their work in more detail, which we hope will foster detailed discussions. In case of a virtual event, we will seek for providing discussion opportunities in small groups.
+The results will be evaluated and updated on the leaderboard.
+
+<span style="color:gray">All the results will be made available publicly. The announcement of the winner will be made at the workshop and the website will be updated accordingly.
+All teams should participate in the workshop and will be invited to present their work in more detail, which we hope will foster detailed discussions. In case of a virtual event, we will seek for providing discussion opportunities in small groups</span>.

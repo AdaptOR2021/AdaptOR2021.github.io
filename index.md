@@ -14,6 +14,18 @@ sidebar:
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
+<div markdown="1">
+
+```
+The AdaptOR challenge will be further continued and is open to receiving submissions.
+The participants will continue to have three submissions, and the submissions will be evaluated periodically and 
+updated on our leaderboard. Please make note of our rrevised data access agreement. The joint challenge publication has 
+not yet been carried out. This publication will be planned by the organisers, once a sufficient number of submissions
+are received from the participants. 
+```
+
+</div>
+
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <li>
