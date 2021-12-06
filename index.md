@@ -15,7 +15,7 @@ sidebar:
 </div>
 
 <p style="padding: 10px; border: 2px solid red;">
-<text-align:center><b> +++ AdaptOR challenge re-opened December 2021 +++ </b></text-align:center>
+<b> +++ AdaptOR challenge re-opened December 2021 +++ </b><br>
 The AdaptOR challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
 The participating teams continue to have a maximum of 3 submissions. 
 The submissions will be evaluated periodically and updated on our <a href="/leaderboard/">leaderboard</a>. 
@@ -27,8 +27,8 @@ are received from the participants. </p>
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
 <div class="smaller-text">
-<li> December 6th, 2021 - The AdaptOR challenge is re-opened and is now accepting further submissions. Please take note of the revised <a href=assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf>data access form</a>.
-The results of the evaluation will be periodically updated on our <a href=_pages/leaderboard.md>leaderboard</a>.</li>
+<li> December 6th, 2021 - The AdaptOR challenge is re-opened and is now accepting further submissions. Please take note of the revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>.
+The results of the evaluation will be periodically updated on our <a href="/leaderboard/">leaderboard</a>.</li>
 <li> November 8th, 2021 - Find the recent work from the organisers, that proposes further methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
 <li> September 25th, 2021 - Find the submissions of the participants, published in the proceedings of the DGM4Miccai Workshop, LNCS MICCAI 2021 <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
 <li> September 20th, 2021 - The final results are computed and will be announced at the DGM4Miccai Workshop on October 1st, 2021. The program can be seen <a href="https://dgm4miccai.github.io/">here</a>.</li>
@@ -64,7 +64,7 @@ In general, we think the underlying detection task could be solved differently:
 3. Incorporating the simulation domain by using a combination of more advanced input-, output-, feature-level domain adaptation approaches, possibly in an end-to-end training strategy
 4. Others.
 
-The authors should detail on their approaches in their submitted LNCS papers.
+<span style="color:#B6B6B4">The authors should detail on their approaches in their submitted LNCS papers.</span><br>
 In case an image-to-image translation task was solved, we will provide visual examples of the generative model's output for visual comparison. These results are qualitative and will not be considered in the ranking scheme. We hypothesize that the quantitative assessment for landmark detection may be an indicator for the quality of the domain transfer with respect to the consistency of sutures in both domains.
 
 <div class="centered"><img src="/assets/images/example-medium.gif" srcset="/assets/images/example-medium.gif 1014w, /assets/images/example-small.gif 507w, /assets/images/example-mini.gif 154w" sizes="50vw"></div>

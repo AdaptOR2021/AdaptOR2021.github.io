@@ -5,7 +5,11 @@ layout: home
 summary: "Brief information overview"
 ---
 
+<div class="smaller-text">
+
 **Last update:** 06 December, 2021
+
+</div>
 
 <div markdown="1">
 
