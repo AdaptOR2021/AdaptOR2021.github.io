@@ -26,9 +26,9 @@ are received from the participants. </p>
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
-<div class="smaller-text">
 <li> December 6th, 2021 - The AdaptOR challenge is re-opened and is now accepting further submissions. Please take note of the revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>.
 The results of the evaluation will be periodically updated on our <a href="/leaderboard/">leaderboard</a>.</li>
+<div class="smaller-text">
 <li> November 8th, 2021 - Find the recent work from the organisers, that proposes further methodological developments on the challenge dataset <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
 <li> September 25th, 2021 - Find the submissions of the participants, published in the proceedings of the DGM4Miccai Workshop, LNCS MICCAI 2021 <a href="https://adaptor2021.github.io/publications/">here</a>.</li>
 <li> September 20th, 2021 - The final results are computed and will be announced at the DGM4Miccai Workshop on October 1st, 2021. The program can be seen <a href="https://dgm4miccai.github.io/">here</a>.</li>
