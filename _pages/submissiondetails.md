@@ -71,7 +71,7 @@ We exclude false negative rate (FNR) in the ranking, since it is related to TPR 
 
 #### <a id="Result_announcement" class="uncolored_link">Result announcement</a>
 
-The results will be evaluated and updated on the [leaderboard](/_pages/leaderboard.md).
+The results will be evaluated and updated on the [leaderboard](/leaderboard/).
 
 <span style="color:#B6B6B4">All the results will be made available publicly. The announcement of the winner will be made at the workshop and the website will be updated accordingly.
 All teams should participate in the workshop and will be invited to present their work in more detail, which we hope will foster detailed discussions. In case of a virtual event, we will seek for providing discussion opportunities in small groups</span>.
