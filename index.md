@@ -10,19 +10,26 @@ sidebar:
 ---
 {% seo %}
 
+{% capture notice-close %} 
+### ++ AdaptOR 2021 challenge is closed and the datasets are no longer available through this platform ++
+{: style="text-align: center;"}
+{% endcapture %}
+
+<div class="notice" style="background-color: #ffcccc;">{{ notice-close | markdownify }}</div>
+
 <div class="centered">
   <img class="centered-image" src="/assets/images/SignatureImage.jpg" alt="Signature Image" srcset="/assets/images/SignatureImage.jpg 1541w, /assets/images/SignatureImage-medium.jpg 1017w, /assets/images/SignatureImage-small.jpg 509w, /assets/images/SignatureImage-mini.jpg 154w" sizes="50vw">
 </div>
 
-<p style="padding: 10px; border: 2px solid red;">
-<b> +++ AdaptOR challenge re-opened December 2021 +++ </b><br>
-The AdaptOR challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
-The participating teams continue to have a maximum of 3 submissions. 
-The submissions will be evaluated periodically and updated on our <a href="/leaderboard/">leaderboard</a>. 
-Please make note of our revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>. 
-The joint challenge publication has not yet been carried out. 
-This publication will be planned by the organisers, once a sufficient number of submissions 
-are received from the participants. </p>
+[//]: # <p style="padding: 10px; border: 2px solid red;">
+[//]: # <b> +++ AdaptOR challenge re-opened December 2021 +++ </b><br>
+[//]: # The AdaptOR challenge will be further continued and is open to receiving submissions from Dec 6, 2021.
+[//]: # The participating teams continue to have a maximum of 3 submissions. 
+[//]: # The submissions will be evaluated periodically and updated on our <a href="/leaderboard/">leaderboard</a>. 
+[//]: # Please make note of our revised <a href="assets/files/Data_Access_Agreement_AdaptOR21_v2.0.pdf">data access form</a>. 
+[//]: # The joint challenge publication has not yet been carried out. 
+[//]: # This publication will be planned by the organisers, once a sufficient number of submissions 
+[//]: # are received from the participants. </p>
 
 ### <a id="News" class="uncolored_link">News </a>
 <ul>
